@@ -267,6 +267,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Stm32F411BlackPill:Adafruit_UDA1334A_Breakout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UDA1334A_Breakout"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PinHeader_1x07_2.54mm"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.adafruit.com/product/3678"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_UDA1334A_Breakout_1_1"
+				(rectangle
+					(start -5 6)
+					(end 5 -6)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 180)
+					(length 2.54)
+					(name "3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 180)
+					(length 2.54)
+					(name "WSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 180)
+					(length 2.54)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Stm32F411BlackPill:MCP23017"
 			(pin_names
 				(offset 1.016)
@@ -2443,6 +2611,12 @@
 		(uuid "12c637bb-0d68-49db-a248-002d7ea770d6")
 	)
 	(junction
+		(at 144.78 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e4bb5e-3a4f-47d2-8af8-cdd8a0b2a59c")
+	)
+	(junction
 		(at 90.17 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3166,6 +3340,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 41.91) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cbb29c-e94c-4b73-934d-b01aa1040992")
+	)
+	(wire
+		(pts
 			(xy 67.31 78.74) (xy 64.77 78.74)
 		)
 		(stroke
@@ -3203,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "39420086-3855-4ed2-959f-f7eae64730a0")
+	)
+	(wire
+		(pts
+			(xy 36.83 11.43) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c1fb46-effb-4f84-8f9e-71ab2e9da9f5")
 	)
 	(wire
 		(pts
@@ -3306,6 +3500,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 48.26) (xy 177.8 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4479c4a2-9c28-45a8-90d2-3daeb299053c")
+	)
+	(wire
+		(pts
 			(xy 190.5 100.33) (xy 193.04 100.33)
 		)
 		(stroke
@@ -3346,6 +3550,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 43.18) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3172a9-8547-40ad-aaf5-17a8fb07f948")
+	)
+	(wire
+		(pts
 			(xy 218.44 154.94) (xy 220.98 154.94)
 		)
 		(stroke
@@ -3373,6 +3587,26 @@
 			(type default)
 		)
 		(uuid "4d8b5e58-33c1-40c4-a2ac-1282ac5248a7")
+	)
+	(wire
+		(pts
+			(xy 43.18 16.51) (xy 182.88 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3304e4-6c74-4bb9-8e63-4c3ea4eb83ab")
+	)
+	(wire
+		(pts
+			(xy 165.1 50.8) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528b8374-d11f-4515-84d8-12238f1be5ca")
 	)
 	(wire
 		(pts
@@ -3453,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "5be9f5f0-2ec7-4b17-921a-d80612b200a3")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c00ea65-46f0-49a8-bc27-59ba90d0129e")
 	)
 	(wire
 		(pts
@@ -3806,6 +4050,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c78fc44-98b7-4722-8140-06694b9acb40")
+	)
+	(wire
+		(pts
 			(xy 85.09 153.67) (xy 85.09 156.21)
 		)
 		(stroke
@@ -3836,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7df26f-f071-4bf3-8da8-f6091d439927")
+	)
+	(wire
+		(pts
 			(xy 67.31 160.02) (xy 57.15 160.02)
 		)
 		(stroke
@@ -3853,6 +4117,26 @@
 			(type default)
 		)
 		(uuid "835a84d8-8986-40da-99d2-f626ef2afcf1")
+	)
+	(wire
+		(pts
+			(xy 119.38 40.64) (xy 119.38 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853a8d2b-8992-4c3e-b311-c96c34092743")
+	)
+	(wire
+		(pts
+			(xy 115.57 25.4) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fe00e2-939c-42f7-af66-09ca9d909cde")
 	)
 	(wire
 		(pts
@@ -3913,6 +4197,16 @@
 			(type default)
 		)
 		(uuid "8bf297ac-2711-4345-9d4d-b7721dd9edfe")
+	)
+	(wire
+		(pts
+			(xy 177.8 11.43) (xy 36.83 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c903d78-5801-4876-8931-6d9aeb3a34bb")
 	)
 	(wire
 		(pts
@@ -4066,6 +4360,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 16.51) (xy 182.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b751d0b-61e1-405e-9300-31483a037516")
+	)
+	(wire
+		(pts
 			(xy 193.04 100.33) (xy 195.58 100.33)
 		)
 		(stroke
@@ -4086,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 40.64) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efdbce0-8f98-4305-b842-5ce5af13ef84")
+	)
+	(wire
+		(pts
 			(xy 92.71 144.78) (xy 92.71 146.05)
 		)
 		(stroke
@@ -4093,6 +4407,16 @@
 			(type default)
 		)
 		(uuid "9f7dec09-386b-46fd-acbf-e5f625a69044")
+	)
+	(wire
+		(pts
+			(xy 43.18 45.72) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0034d53-e6b2-4d4a-99b5-75cb36f10e43")
 	)
 	(wire
 		(pts
@@ -4126,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 19.05) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48e61c7-7a12-48ad-b155-35300fc1c427")
+	)
+	(wire
+		(pts
 			(xy 67.31 78.74) (xy 91.44 78.74)
 		)
 		(stroke
@@ -4153,6 +4487,26 @@
 			(type default)
 		)
 		(uuid "a6fe85aa-1bb3-462b-a054-5dc562c9a8ca")
+	)
+	(wire
+		(pts
+			(xy 115.57 25.4) (xy 144.78 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89be605-250f-49f4-b628-97c199057891")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 119.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a02b51-c82b-45a0-a384-e0525376bfbc")
 	)
 	(wire
 		(pts
@@ -4266,13 +4620,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 129.54 78.74)
+			(xy 119.38 19.05) (xy 167.64 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b257b54e-5af1-489a-b844-c1fa3451693d")
+		(uuid "b3159b0e-5793-4d5e-a479-0369104ee2db")
 	)
 	(wire
 		(pts
@@ -4383,6 +4737,16 @@
 			(type default)
 		)
 		(uuid "c0b39f9f-31a6-4ee9-8c1d-98982d5d122d")
+	)
+	(wire
+		(pts
+			(xy 62.23 41.91) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12f7927-bd8d-4ec8-9ad7-1718c7221f34")
 	)
 	(wire
 		(pts
@@ -4726,6 +5090,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 16.51) (xy 43.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed046ec-c035-43fb-a113-17198662213c")
+	)
+	(wire
+		(pts
 			(xy 85.09 156.21) (xy 77.47 156.21)
 		)
 		(stroke
@@ -4871,6 +5245,84 @@
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Stm32F411BlackPill:Adafruit_UDA1334A_Breakout")
+		(at 66.04 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0894b4e6-ee4f-4e60-8bf0-ebccbc8ca17f")
+		(property "Reference" "U?"
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDA1334A_Breakout"
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PinHeader_1x07_2.54mm"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/3678"
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f4f3c78-f071-43d7-ae09-1714d5a7ec1d")
+		)
+		(pin "1"
+			(uuid "ec4be1cf-e31e-4414-a956-9bfb5d402ae7")
+		)
+		(pin "3"
+			(uuid "8f2e6e3e-f286-4667-b96c-c209eaf15fcf")
+		)
+		(pin "5"
+			(uuid "46544c30-1aea-4e32-b019-591733439d60")
+		)
+		(pin "4"
+			(uuid "4ed62163-15de-4d15-a211-1d14888c4707")
+		)
+		(pin "6"
+			(uuid "73448097-351e-40aa-9d66-c83c9ccd3ec3")
+		)
+		(instances
+			(project ""
+				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
+					(reference "U?")
 					(unit 1)
 				)
 			)
