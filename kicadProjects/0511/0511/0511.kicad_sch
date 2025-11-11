@@ -5260,7 +5260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0894b4e6-ee4f-4e60-8bf0-ebccbc8ca17f")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 66.04 26.67 0)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PinHeader_1x07_2.54mm"
+		(property "Footprint" "Adafruit_UDA1334A:PinHeader_1x07_2.54mm"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -5322,7 +5322,7 @@
 		(instances
 			(project ""
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -229,7 +229,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "01a17347-815f-4b0a-8f73-e3f17d05791b")
-		(at 149.55 33.51)
+		(at 149.95 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW31"
@@ -514,13 +514,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "02abed42-ea80-48af-b499-9799b2031d20")
-		(at 149.55 48.6)
+		(at 195.16 19.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW32"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "ff0b5315-90b2-4435-a9fe-e8384ac5713d")
+			(uuid "76d4ca23-b841-4e9e-baae-d6f753013596")
 			(effects
 				(font
 					(size 1 1)
@@ -531,7 +531,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "cf300ec3-2c18-41b7-8f4a-401e29ad6a97")
+			(uuid "586af18d-b82e-4f4f-a4ff-6df45bcee80b")
 			(effects
 				(font
 					(size 1 1)
@@ -544,7 +544,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4da8b782-0d98-418e-ab8a-d8631d0a0b2a")
+			(uuid "e3792d7d-2bb8-4e90-9179-c5c8e706c632")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +557,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d72e01d-a56f-41b4-b220-96c7d05df819")
+			(uuid "5c40d875-fe63-4470-a1f8-8978e6f3d18d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,13 +1002,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "05829223-9499-4187-be70-373a6055ddf3")
-		(at 164.64 48.6)
+		(at 210.25 19.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW38"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "ff3f8203-5e05-428e-be91-1d933f57f72d")
+			(uuid "b80b12e4-4610-4dea-93b1-3cc81da6127e")
 			(effects
 				(font
 					(size 1 1)
@@ -1019,7 +1019,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "d865124f-6e51-4c5c-99f5-7c6a342a6bb4")
+			(uuid "c8e93310-aeb4-4fd3-b78f-6cbbc33c7bab")
 			(effects
 				(font
 					(size 1 1)
@@ -1032,7 +1032,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "618a23e3-b4cc-4e73-8388-c36ec1ebc0f2")
+			(uuid "e5afe13d-17d8-48cd-8881-185b98f6e617")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1045,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78e49b51-1119-4049-b136-a8e0bbf6d8e8")
+			(uuid "4528a39a-0ae5-4e99-99f8-4fad1648b561")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,13 +1287,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "060c796c-58bb-4d06-8342-481ec17c605d")
-		(at 74.1 63.69)
+		(at 142.25 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW3"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "f0733771-3c06-490f-9cfb-c55b73e2806e")
+			(uuid "b4c44a21-00ea-476c-b3aa-8de94b1cb1f1")
 			(effects
 				(font
 					(size 1 1)
@@ -1304,7 +1304,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "d77aaf37-b271-4d2b-9de6-2060d445e26b")
+			(uuid "d2ed7f22-2757-45e1-8664-7b0e6a9cbaea")
 			(effects
 				(font
 					(size 1 1)
@@ -1317,7 +1317,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fbcd5c2-1289-49c8-abe5-2b10a7466829")
+			(uuid "d5d96166-e42b-4fef-9497-35a837af4e51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f95b520-c0bc-421b-b5c6-8f0f1989a2bc")
+			(uuid "d65a625d-4b68-4734-bb79-735c30ae66e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1978,7 @@
 	(footprint "Button_Switch_THT:Push_E-Switch_KS01Q01"
 		(layer "F.Cu")
 		(uuid "06ce734a-e2c8-4110-a873-b2e525e2f85d")
-		(at 111.472515 163.142515)
+		(at 244.5 90.5)
 		(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
 		(tags "Push Button")
 		(property "Reference" "R34"
@@ -2160,13 +2160,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "06dafcd9-20e2-4307-9c50-7a5c44e10a9c")
-		(at 134.46 63.69)
+		(at 202.61 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW27"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "8335dc62-0bef-405e-b2be-5f81d0f500b1")
+			(uuid "eea8585a-0145-4263-8fc9-9f41eab18852")
 			(effects
 				(font
 					(size 1 1)
@@ -2177,7 +2177,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "25bb3afb-8741-4638-b27e-91f2667fa45b")
+			(uuid "11a6474d-709c-4724-aa0d-ca52fc143830")
 			(effects
 				(font
 					(size 1 1)
@@ -2190,7 +2190,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a8c47c0-b9a6-4b62-ad3c-c556c5d1ea61")
+			(uuid "5f2e9add-b292-4f3e-9e98-7ba8f700fdce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d0eeb92-ffb5-4775-a19e-5b7a597a615b")
+			(uuid "dc223a2f-506a-4eb0-9d77-a56ffcb81c30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,13 +2445,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "0781f9bd-d041-4eb7-95a9-73942c716bb4")
-		(at 89.19 63.69)
+		(at 157.34 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW9"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "ba2cbbb6-2a32-480d-be28-01cf90b51f3f")
+			(uuid "72942d18-2247-420f-a440-559004b0daa4")
 			(effects
 				(font
 					(size 1 1)
@@ -2462,7 +2462,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "fbbfb10b-4d41-43fa-a22e-c1e44adac52f")
+			(uuid "c076790c-1e75-411c-8e64-4c93028bd193")
 			(effects
 				(font
 					(size 1 1)
@@ -2475,7 +2475,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b3a2c5b-e38b-4f38-a0a9-ec0d4994129b")
+			(uuid "be61ad6e-0d13-45f1-8c6c-09e0c39ea36c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2488,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9671849c-6098-42c0-a176-7c5be6b2404b")
+			(uuid "366e6035-ffd3-48d1-bbfa-c05ffbc0f7f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2730,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "09390f64-074f-4ec9-bdce-df27a8c533ea")
-		(at 149.55 108.96)
+		(at 203.55 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW36"
@@ -3218,7 +3218,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "0db8d42a-b6a3-423e-aa3d-a8be92249451")
-		(at 164.64 108.96)
+		(at 218.64 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW42"
@@ -4112,13 +4112,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "1d1501cf-e8cd-4dd2-ac2d-98bdc3dc37c8")
-		(at 89.19 48.6)
+		(at 82.03 34.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW8"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "383b40e9-5a61-4ce5-903d-549712a0ef89")
+			(uuid "8c1b08d8-6e6a-4ccf-905f-0c4564dff1ec")
 			(effects
 				(font
 					(size 1 1)
@@ -4129,7 +4129,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "c0b68afc-5201-4ffc-9fff-86b54c5dec38")
+			(uuid "6e352bf2-7ce0-4a63-9259-c9607b9c86dc")
 			(effects
 				(font
 					(size 1 1)
@@ -4142,7 +4142,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b27b865-930d-4838-9718-5e57048a717b")
+			(uuid "36dd9256-6bab-4599-8a4a-2c64da190962")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4155,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c7a1494-ebf6-4ab0-9a94-694693ea9a23")
+			(uuid "a60ac696-cd9e-4f5d-8b76-9cf276db7843")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4600,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "2488c6f2-ef30-4c13-8b5a-a30146dfdd1a")
-		(at 104.28 93.87)
+		(at 98.12 63.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW17"
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at -2.54 12.954 0)
+			(at 57.62 -2.046 0)
 			(layer "F.Fab")
 			(uuid "09d3fbbc-23fe-4a2f-80fc-b7ca1be1ba27")
 			(effects
@@ -5088,13 +5088,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "27133c64-4c53-4ce8-8365-b4d7c9caa0ef")
-		(at 179.73 33.51)
+		(at 180.13 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW43"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "75beb90b-a06e-4320-aa16-f7d2135f90fd")
+			(uuid "74f21852-512c-4cdf-89a1-ebfe4ba86b92")
 			(effects
 				(font
 					(size 1 1)
@@ -5105,7 +5105,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "1b0902b2-e695-47eb-9613-d11d1ed31bc2")
+			(uuid "c74ac40a-1a05-49da-ac64-6b63f59ce09e")
 			(effects
 				(font
 					(size 1 1)
@@ -5118,7 +5118,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82770c8b-67a8-401f-b8be-29a0501ca273")
+			(uuid "2e17ff3e-4e55-4029-91e7-e4ff8d636fd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5131,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ce3c7eb-e4f6-4a49-bceb-11d43bc88584")
+			(uuid "58867be6-e581-4e22-ae76-631120850aba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,13 +5576,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "2e3d79d6-a353-4e2c-8baa-8f8008bdd6be")
-		(at 104.28 48.6)
+		(at 97.12 34.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW14"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "69a9b08d-e9d7-48c3-814c-74afc299c2af")
+			(uuid "fd8a986b-6f87-4fb5-842b-43cb6fcad8b1")
 			(effects
 				(font
 					(size 1 1)
@@ -5593,7 +5593,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "b106e954-8b20-4ed9-b15a-d0d3e531cb2c")
+			(uuid "e1716ae6-c4e3-41e3-8cb7-6d8f825b2909")
 			(effects
 				(font
 					(size 1 1)
@@ -5606,7 +5606,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cd1b0f6-9307-4b93-9cd6-d2ffc0287bec")
+			(uuid "5d94790a-35b9-4c6b-a343-6f460f70be76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5619,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6db4c26b-3d55-4aac-8242-9b048510892d")
+			(uuid "fb9c90da-f07b-45fa-9687-f15bc80a5ec7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6064,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "3c65a6d6-d72a-4c86-ab1c-b469059b3724")
-		(at 89.19 93.87)
+		(at 83.03 63.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW11"
@@ -6079,7 +6079,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at -2.54 12.954 0)
+			(at 57.62 -2.046 0)
 			(layer "F.Fab")
 			(uuid "442d7e84-54e9-4a3c-bf46-a926a1844a98")
 			(effects
@@ -6552,7 +6552,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "4a234a02-334f-4987-8c08-193b3b38bcf6")
-		(at 164.64 78.78)
+		(at 150.29 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW40"
@@ -7755,7 +7755,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "4f49764b-bde2-4178-8880-d810016693de")
-		(at 179.73 108.96)
+		(at 233.73 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW48"
@@ -8243,13 +8243,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "50dbc510-5ef5-4d3a-8bd3-a7975136cabf")
-		(at 119.37 63.69)
+		(at 187.52 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW21"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "7a6dba7a-db32-496d-a1e4-e7c8602e3181")
+			(uuid "72521f81-3b42-44c1-a9db-fc69a634e570")
 			(effects
 				(font
 					(size 1 1)
@@ -8260,7 +8260,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "1ed37a03-4326-4e32-9d66-3adbe13a2762")
+			(uuid "1242ed8c-a48d-4891-b2b7-3ac2cd1196fc")
 			(effects
 				(font
 					(size 1 1)
@@ -8273,7 +8273,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7707d932-6236-47f0-ae7e-f17f412bb2dc")
+			(uuid "4a23b82a-35cc-46fc-9e2b-816b524c9aa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8286,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36e4ecc7-7b66-4220-aa1e-821e2137ff5a")
+			(uuid "e58ed825-2deb-4049-8403-5231d99ee1c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +9137,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "59bb38a3-0930-4c32-a441-08783769b35c")
-		(at 104.28 78.78)
+		(at 89.93 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW16"
@@ -9422,13 +9422,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "5a8dcf0a-46f3-47a7-a1df-4cc8e93108c9")
-		(at 104.28 63.69)
+		(at 172.43 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW15"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "133fd9dc-dae4-48ad-8a6c-eff02105bd46")
+			(uuid "d30df60e-01b6-4e24-bef9-2ef72f440704")
 			(effects
 				(font
 					(size 1 1)
@@ -9439,7 +9439,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "e0e63978-3496-4221-8241-aa306b1e0efe")
+			(uuid "1e474f8c-700e-4e76-89fa-1f17f9ef2272")
 			(effects
 				(font
 					(size 1 1)
@@ -9452,7 +9452,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a7b32f4-17ea-4ab8-8d70-ffc84d2f5d19")
+			(uuid "1e3e3ee2-93e4-4835-aa32-adc8c8d06ecc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,7 +9465,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "816930c3-b01c-4a95-b81f-1c33a9958b3b")
+			(uuid "987a3f5d-9052-4ea5-860e-2e060b4f0a23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10422,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "6319f99c-85a1-4993-a79e-cb3e3044da2e")
-		(at 89.19 33.51)
+		(at 89.59 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW7"
@@ -10707,7 +10707,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "64278bde-cd78-41f3-b9e8-f6d16c9dd620")
-		(at 89.19 78.78)
+		(at 74.84 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW10"
@@ -10992,7 +10992,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "648fca3e-b04c-4b11-a98d-52d892ed443e")
-		(at 134.46 93.87)
+		(at 240.52 49.41)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW29"
@@ -11480,7 +11480,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "68b1bb10-e9eb-4f22-8fda-1469e0e31e37")
-		(at 89.19 108.96)
+		(at 143.19 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW12"
@@ -11765,7 +11765,7 @@
 	(footprint "Footprints:YAAJ_BlackPill_SWD_1"
 		(layer "F.Cu")
 		(uuid "6a48696c-a89f-4890-a942-f40850282e40")
-		(at 188.72 40)
+		(at 238 120.92)
 		(descr "BlackPill module with pin headers / sockets. SWD broken out to PCB.")
 		(tags "module BlackPill Black Pill header SWD breakout")
 		(property "Reference" "U2"
@@ -19483,13 +19483,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "6a8f5144-b2cc-4a39-937e-dd0d37d46b0b")
-		(at 179.73 48.6)
+		(at 225.34 19.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW44"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "402eab87-6907-4f74-a0f2-a049d27a5914")
+			(uuid "477d9585-a86a-446b-895b-674dedd1c30c")
 			(effects
 				(font
 					(size 1 1)
@@ -19500,7 +19500,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "6ed442ec-b155-47ad-b16e-26ffd078db9a")
+			(uuid "c4f5de2b-5a82-4ca7-8f20-46cf8e4bb556")
 			(effects
 				(font
 					(size 1 1)
@@ -19513,7 +19513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55a373f0-d92d-497d-beb8-67797466a506")
+			(uuid "ccbaf4e1-7018-4436-a2b8-5481a48cb299")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,7 +19526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "588bd66b-ae62-4425-83bb-c425ebfde79c")
+			(uuid "1ffed99b-2325-44e7-b032-2bbdba89f454")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19971,7 +19971,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "744c4495-eed6-49b4-8b13-bba090dabea7")
-		(at 149.55 93.87)
+		(at 210.19 49.59)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW35"
@@ -20459,7 +20459,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "7920ded8-3c31-4236-9724-905320460bdf")
-		(at 134.46 78.78)
+		(at 120.11 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW28"
@@ -21353,7 +21353,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "7ebb3b50-7cf3-4a25-be31-a9c78608caa1")
-		(at 164.64 93.87)
+		(at 225.28 49.59)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW41"
@@ -21638,7 +21638,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "806e7ff7-3a4b-4c71-93db-e36efd4f318b")
-		(at 104.28 33.51)
+		(at 104.68 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW13"
@@ -21923,7 +21923,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "81b4491c-8ae3-4d99-9f82-38c4367e10d7")
-		(at 104.28 108.96)
+		(at 158.28 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW18"
@@ -22614,7 +22614,7 @@
 	(footprint "Package_DIP:DIP-28_W7.62mm"
 		(layer "F.Cu")
 		(uuid "85806efd-08a6-49dd-91c9-a0269b09eb41")
-		(at 130.24 123.64)
+		(at 271.88 -77.12)
 		(descr "28-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U4"
@@ -23126,7 +23126,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "8ee38b74-0d08-492b-881e-f2b864ac871e")
-		(at 164.64 33.51)
+		(at 165.04 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW37"
@@ -23411,7 +23411,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "8f114307-2f1d-4cdc-a0f7-60e97a8f4b58")
-		(at 74.1 78.78)
+		(at 59.75 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW4"
@@ -23899,13 +23899,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "91a9a496-3323-4731-9e9c-f25eaf2ce9b1")
-		(at 179.73 63.69)
+		(at 180.27 49.59)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW45"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "09c084d7-614b-4c3f-8658-fee56c7506c8")
+			(uuid "1ca791ce-7282-46f4-afed-57276dc4630d")
 			(effects
 				(font
 					(size 1 1)
@@ -23916,7 +23916,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "b7e8a579-6175-44ee-8388-d749596e06e4")
+			(uuid "cd4ff853-d629-4523-82fb-c89dc5add89a")
 			(effects
 				(font
 					(size 1 1)
@@ -23929,7 +23929,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "185db7fa-2325-47b4-9961-4384b891cbec")
+			(uuid "ef183e54-6b5b-4da7-96fe-abdd341336b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23942,7 +23942,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c5f3eec-4940-4b70-b819-b24525c4b712")
+			(uuid "32e2162b-51c5-4e7c-a97b-539e5243a28b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24387,7 +24387,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "9865bfcc-f463-4b23-857a-9c36bfdff924")
-		(at 134.46 108.96)
+		(at 188.46 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW30"
@@ -24672,13 +24672,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "995f4950-80bf-4cf2-a591-041a64d2d736")
-		(at 74.1 48.6)
+		(at 66.94 34.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW2"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "357a0d46-1ca4-421a-9ad4-6ae4b9c67a90")
+			(uuid "f6d03070-58f5-485c-9c56-ada62d372dd2")
 			(effects
 				(font
 					(size 1 1)
@@ -24689,7 +24689,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "62ef21e9-edbb-43da-9742-2f5e0003edb7")
+			(uuid "c1d01a4e-32c8-452d-880a-93e3177330e7")
 			(effects
 				(font
 					(size 1 1)
@@ -24702,7 +24702,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da4ec893-5c79-425f-9df8-e43090afb1d3")
+			(uuid "4007b229-1e31-4eb4-afcc-ce739d6960cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24715,7 +24715,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23d73b4c-da60-4bda-8ef0-ce77c907c4d8")
+			(uuid "1c6ef91e-b822-4a4f-bda7-20170548dcd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25363,7 +25363,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "a1dc092e-097a-4ee4-8ceb-0cc7a7d64e0e")
-		(at 119.37 108.96)
+		(at 173.37 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW24"
@@ -26257,7 +26257,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "b787883a-3a4b-4e8b-b8a4-d1819020abc3")
-		(at 179.73 93.87)
+		(at 195.27 49.59)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW47"
@@ -27151,7 +27151,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "c6e184aa-4542-4766-8f96-8079076cf61e")
-		(at 74.1 33.51)
+		(at 74.5 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW1"
@@ -27436,7 +27436,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "c889a5b8-4f63-4bc1-a438-6221443e7b01")
-		(at 134.46 33.51)
+		(at 134.86 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW25"
@@ -28736,7 +28736,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "d5a2e784-682c-4972-9802-8a9c50f1afbd")
-		(at 74.1 108.96)
+		(at 128.1 64)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW6"
@@ -29021,13 +29021,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "d729352b-2493-444b-9212-5c6c29e12243")
-		(at 134.46 48.6)
+		(at 127.3 34.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW26"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "831e1fd2-34ad-4cd0-a376-b216585eaa58")
+			(uuid "df6b4064-46e7-4ec9-8571-362d0e0e4f57")
 			(effects
 				(font
 					(size 1 1)
@@ -29038,7 +29038,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "e00391ef-a9de-4d12-afb2-e650625c6747")
+			(uuid "b750ac57-eb31-4a8c-8a57-e5ec352b5fe7")
 			(effects
 				(font
 					(size 1 1)
@@ -29051,7 +29051,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6df1cbc-af18-4994-a021-647accfa25d9")
+			(uuid "858f9910-fd10-42b2-9197-a0c25a24e92d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29064,7 +29064,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cb2b3a1-8fd8-4d50-bffc-aec2a85c7a1e")
+			(uuid "fa23647e-6cf0-4b61-bb19-c7b5d4f33d61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29915,7 +29915,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "e1654958-3046-4fda-99bb-c3d0e407b012")
-		(at 74.1 93.87)
+		(at 67.94 63.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW5"
@@ -29930,7 +29930,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at -2.54 12.954 0)
+			(at 57.62 -2.046 0)
 			(layer "F.Fab")
 			(uuid "8fe2e682-b611-4698-96d6-139c571b5a12")
 			(effects
@@ -30403,13 +30403,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "e1afe881-c09c-4192-ac45-054987e4c2a9")
-		(at 164.64 63.69)
+		(at 232.79 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW39"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "bfc68808-4660-454a-9265-b35c587e2fdd")
+			(uuid "2ea640e0-26ed-4ce5-9925-e414f297b68b")
 			(effects
 				(font
 					(size 1 1)
@@ -30420,7 +30420,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "bb53e611-d0d3-4aaf-a045-08aa9cb6de94")
+			(uuid "ae45732b-8dd4-4892-b5ad-b551b5d874d7")
 			(effects
 				(font
 					(size 1 1)
@@ -30433,7 +30433,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32e3942e-5a33-476d-bf20-34bbc4f25ed5")
+			(uuid "3e8a57f7-8cb6-4748-ba0c-abb001fb8d25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30446,7 +30446,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e3beb89-02a0-423b-8f79-cd6f97cf7b54")
+			(uuid "fdf3d292-ac9e-4146-a09b-5556514efd48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30891,7 +30891,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "e3bd98a1-204e-45f5-8cd9-d442a2fc7b93")
-		(at 119.37 93.87)
+		(at 113.21 63.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW23"
@@ -30906,7 +30906,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at -2.54 12.954 0)
+			(at 57.62 -2.046 0)
 			(layer "F.Fab")
 			(uuid "f94e537b-aef4-4145-82a6-1e2471098a24")
 			(effects
@@ -31176,7 +31176,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "e840de83-321e-47a5-b44b-5490c4895d12")
-		(at 149.55 78.78)
+		(at 135.2 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW34"
@@ -31461,13 +31461,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "e85385d2-32de-47bc-8d0c-21233eb61aac")
-		(at 119.37 48.6)
+		(at 112.21 34.91)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW20"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "91743a56-565f-426a-ba37-3a7c2cb32da3")
+			(uuid "dfc51f5d-7065-466a-b07c-2faf405e822f")
 			(effects
 				(font
 					(size 1 1)
@@ -31478,7 +31478,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "c3058917-a71a-4d45-9ce9-e940badbccd6")
+			(uuid "c865e081-34fd-45fd-b448-d1c003d80131")
 			(effects
 				(font
 					(size 1 1)
@@ -31491,7 +31491,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3606ae1e-cb6c-4939-9f64-65302253ae6f")
+			(uuid "3588bd4d-6ffa-49ac-ac0e-d560a48fc8f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31504,7 +31504,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c743e151-0acf-46e6-ada5-3c084790c23b")
+			(uuid "8278af3c-b2a3-495a-86bf-1d743a941384")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31746,7 +31746,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "e885a6a8-3628-41c0-8083-1eac7bbf4d96")
-		(at 179.73 78.78)
+		(at 165.38 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW46"
@@ -32031,7 +32031,7 @@
 	(footprint "Adafruit_UDA1334A:PinHeader_1x07_2.54mm"
 		(layer "F.Cu")
 		(uuid "ea399876-3738-43d3-bae8-ce6c2b75a56d")
-		(at 244 32)
+		(at 302.15 123)
 		(descr "Adafruit UDA1334A I2S DAC breakout (centré)")
 		(tags "Adafruit UDA1334A I2S DAC breakout")
 		(property "Reference" "U5"
@@ -32339,13 +32339,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "ed3f9990-2c0e-480e-8f80-b80aac2f8e32")
-		(at 149.55 63.69)
+		(at 217.7 34.95)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW33"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "8281b256-5824-4be5-9934-e8864fa84271")
+			(uuid "adfb03f6-9953-46ed-9f1d-a5b2c2ab64d8")
 			(effects
 				(font
 					(size 1 1)
@@ -32356,7 +32356,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "f2036a96-e832-46aa-afbb-4fa4b3f70e4f")
+			(uuid "70abfda9-8083-46bb-92eb-47c791c6feb5")
 			(effects
 				(font
 					(size 1 1)
@@ -32369,7 +32369,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20766c58-2abb-4d2a-b978-0e36cea6f426")
+			(uuid "b7135cf6-2923-42e7-a367-4a5c8e13ea12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32382,7 +32382,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ba9c95b-0420-4dda-ba8c-c73412c99643")
+			(uuid "47224325-a7ff-4092-860c-f196c5349454")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32827,7 +32827,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "f69b0c42-6e93-439d-81a8-f5e8387b95fb")
-		(at 119.37 78.78)
+		(at 105.02 49.45)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW22"
@@ -33112,7 +33112,7 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "f92db8fb-bdef-41cb-a1d1-4e19799b7aa2")
-		(at 119.37 33.51)
+		(at 119.77 20)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW19"
