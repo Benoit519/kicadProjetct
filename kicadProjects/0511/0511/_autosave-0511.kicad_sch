@@ -7567,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:Push_E-Switch_KS01Q01"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 189.992 48.26 90)
 			(effects
 				(font
