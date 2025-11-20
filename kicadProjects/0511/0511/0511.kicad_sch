@@ -2820,12 +2820,6 @@
 		(uuid "2069f836-dba7-4a86-a6fd-1220278ef2c1")
 	)
 	(junction
-		(at 152.4 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "762e6c58-bb20-48fb-8c9f-4329230abea8")
-	)
-	(junction
 		(at 104.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2848,12 +2842,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "982f967b-4c16-48c8-b144-3869bb3cabee")
-	)
-	(junction
-		(at 85.09 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c466b65f-ab86-4115-9632-35800c2c3e00")
 	)
 	(junction
 		(at 64.77 92.71)
@@ -2917,6 +2905,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 144.78) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015b7f59-b884-41d7-a4f2-47427db43039")
+	)
+	(wire
+		(pts
 			(xy 21.59 187.96) (xy 29.21 187.96)
 		)
 		(stroke
@@ -2964,16 +2962,6 @@
 			(type default)
 		)
 		(uuid "0bb126b6-b2d3-49ab-925e-ec35232e224b")
-	)
-	(wire
-		(pts
-			(xy 85.09 134.62) (xy 87.63 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108c27ba-5f24-44eb-8dad-5480ba0eee24")
 	)
 	(wire
 		(pts
@@ -3034,6 +3022,16 @@
 			(type default)
 		)
 		(uuid "15b893a1-a5f4-4b23-8d2f-ad2cddefbae0")
+	)
+	(wire
+		(pts
+			(xy 151.13 144.78) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17829264-d970-430e-98d5-7191206d06ad")
 	)
 	(wire
 		(pts
@@ -3397,16 +3395,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 142.24) (xy 83.82 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b16ad29-a36e-4593-befd-ef41c197186c")
-	)
-	(wire
-		(pts
 			(xy 167.64 43.18) (xy 165.1 43.18)
 		)
 		(stroke
@@ -3444,16 +3432,6 @@
 			(type default)
 		)
 		(uuid "4f8844ae-aab0-4f52-9d16-853f4e97f0fb")
-	)
-	(wire
-		(pts
-			(xy 83.82 134.62) (xy 85.09 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507abc70-cfe6-4b73-a0bf-b716bde9913b")
 	)
 	(wire
 		(pts
@@ -3607,6 +3585,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 134.62) (xy 87.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640e504d-66f8-4055-b36f-999d86ff58f5")
+	)
+	(wire
+		(pts
 			(xy 95.25 149.86) (xy 95.25 134.62)
 		)
 		(stroke
@@ -3614,16 +3602,6 @@
 			(type default)
 		)
 		(uuid "658a463e-ea08-418b-b940-05b31504e137")
-	)
-	(wire
-		(pts
-			(xy 85.09 157.48) (xy 85.09 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "671f5ff5-9fc2-497f-96bd-406c2b5e2160")
 	)
 	(wire
 		(pts
@@ -3997,13 +3975,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 167.64) (xy 152.4 144.78)
+			(xy 152.4 165.1) (xy 156.21 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a108c568-57ff-4f2a-9889-7ad1cc7dd3a1")
+		(uuid "a0b8d751-5305-4132-a125-3e4f3644d584")
 	)
 	(wire
 		(pts
@@ -4277,6 +4255,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 134.62) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4515e2e-e4d2-478d-b796-bcff9ae03fda")
+	)
+	(wire
+		(pts
+			(xy 156.21 165.1) (xy 156.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c2085-cc4f-46d2-8fff-57ace3314e25")
+	)
+	(wire
+		(pts
 			(xy 167.64 144.78) (xy 167.64 156.21)
 		)
 		(stroke
@@ -4307,13 +4305,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 144.78) (xy 154.94 144.78)
+			(xy 152.4 167.64) (xy 152.4 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc8a9739-e96f-4d31-bd22-4c2af6a29e1d")
+		(uuid "dd3f68a7-4295-4830-a444-4a89426a09cd")
 	)
 	(wire
 		(pts
@@ -4327,13 +4325,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 152.4) (xy 151.13 144.78)
+			(xy 83.82 134.62) (xy 85.09 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1683f2c-1811-470e-ac0a-f13146dd7f3b")
+		(uuid "e14db6cd-c021-4f5d-ae27-f0157b56f293")
 	)
 	(wire
 		(pts
@@ -7934,7 +7932,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 142.24)
+		(at 78.74 173.99)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7950,7 +7948,7 @@
 		)
 		(uuid "bbb04e8e-4403-425a-b6fa-7aa2d06a6f8d")
 		(property "Sheetname" "Button_RCD7"
-			(at 78.74 141.5284 0)
+			(at 78.74 173.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7958,7 @@
 			)
 		)
 		(property "Sheetfile" "buttonRcd.kicad_sch"
-			(at 78.74 146.6346 0)
+			(at 78.74 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7968,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 83.82 142.24 90)
+			(at 83.82 173.99 90)
 			(uuid "f9e3a6fe-2857-4102-90d6-2c82de7e8ea0")
 			(effects
 				(font
@@ -8096,7 +8094,7 @@
 		)
 	)
 	(sheet
-		(at 80.01 157.48)
+		(at 82.55 157.48)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8112,7 +8110,7 @@
 		)
 		(uuid "d22b18ba-1352-4d91-81d4-cad2e1e3614f")
 		(property "Sheetname" "Button_RCD15"
-			(at 80.01 156.7684 0)
+			(at 82.55 156.7684 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8123,7 +8121,7 @@
 			)
 		)
 		(property "Sheetfile" "buttonRcd.kicad_sch"
-			(at 80.01 161.8746 0)
+			(at 82.55 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8131,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 85.09 157.48 90)
+			(at 87.63 157.48 90)
 			(uuid "29be3596-9b4a-49e7-b915-70ff168efed9")
 			(effects
 				(font
