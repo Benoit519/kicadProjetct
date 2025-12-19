@@ -15872,7 +15872,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "240dd31f-2a4f-440d-b794-75f465fc556f")
@@ -41891,7 +41891,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e567392b-a577-4de4-af3e-5191d0c2a2f7")
@@ -42289,7 +42289,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1cc4de89-a095-49a9-ba53-f83767870e56")
@@ -86140,7 +86140,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4fc29be9-1a44-4590-b819-afa0bec9b99d")

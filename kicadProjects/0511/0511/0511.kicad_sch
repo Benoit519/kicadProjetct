@@ -8879,7 +8879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 323.85 58.4199 0)
 			(effects
 				(font
@@ -11146,7 +11146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 38.1 110.4899 0)
 			(effects
 				(font
@@ -12066,7 +12066,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 121.92 123.1899 0)
 			(effects
 				(font
@@ -13354,7 +13354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 220.98 85.0899 0)
 			(effects
 				(font
@@ -16659,7 +16659,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 39.37 173.99 90)
+			(at 38.1 173.99 90)
 			(uuid "0d3d0032-ec76-4524-8311-3b0ccf56b81f")
 			(effects
 				(font
