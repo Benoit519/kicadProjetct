@@ -16842,6 +16842,58 @@
 		)
 	)
 	(sheet
+		(at 260.35 245.11)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef3c88a7-c29e-46b1-9846-d274c21c66ab")
+		(property "Sheetname" "Untitled Sheet"
+			(at 260.35 244.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 260.35 249.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "test" input
+			(at 260.35 247.65 180)
+			(uuid "ecbffaa2-82a5-4346-ae54-7133c017050d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "0511"
+				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
+					(page "69")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 213.36 128.27)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
