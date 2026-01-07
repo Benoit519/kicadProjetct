@@ -4988,6 +4988,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 229.87) (xy 303.53 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0918c1da-13cf-4619-bc12-3482c13769ee")
+	)
+	(wire
+		(pts
 			(xy 320.04 50.8) (xy 320.04 53.34)
 		)
 		(stroke
@@ -7308,6 +7318,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 234.95) (xy 266.7 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53b42d5-9d12-441f-a17a-86a08f558318")
+	)
+	(wire
+		(pts
 			(xy 228.6 63.5) (xy 228.6 69.85)
 		)
 		(stroke
@@ -7378,6 +7398,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 240.03) (xy 266.7 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4eb6dcb-a012-49c6-be16-1c4864465a36")
+	)
+	(wire
+		(pts
 			(xy 156.21 165.1) (xy 156.21 143.51)
 		)
 		(stroke
@@ -7445,6 +7475,26 @@
 			(type default)
 		)
 		(uuid "d8648628-85b7-4358-ab56-0b496b2b3f21")
+	)
+	(wire
+		(pts
+			(xy 303.53 234.95) (xy 285.75 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d857f9-a33e-4244-abe6-774ea36a1c1f")
+	)
+	(wire
+		(pts
+			(xy 273.05 234.95) (xy 266.7 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c42c69-4b41-430a-be56-f6a90bd09536")
 	)
 	(wire
 		(pts
@@ -11128,6 +11178,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 303.53 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e598e2-5b23-4972-8a09-e49a83e12131")
+		(property "Reference" "#PWR044"
+			(at 303.53 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 303.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 303.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f28952f-66b5-477c-98fb-4c850c014d5b")
+		)
+		(instances
+			(project "0511"
+				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 109.22 0)
 		(unit 1)
@@ -12247,6 +12363,72 @@
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c230b99d-b68d-40b9-958d-c53b4dcf5ac8")
+		(property "Reference" "#PWR045"
+			(at 262.89 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a3ace0-16b3-44e2-88d6-fa4b3edc1db3")
+		)
+		(instances
+			(project "0511"
+				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15154,6 +15336,68 @@
 		)
 	)
 	(sheet
+		(at 273.05 232.41)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88fc5341-afb8-4308-b309-3807a8feeae9")
+		(property "Sheetname" "Buck"
+			(at 273.05 231.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck.kicad_sch"
+			(at 273.05 236.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 285.75 234.95 0)
+			(uuid "79cadd71-da52-46f2-a887-e2a0e617c955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gnd" passive
+			(at 273.05 234.95 180)
+			(uuid "77a98ec7-884a-4636-a7a3-397bd55b752f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "0511"
+				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
+					(page "69")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 147.32 167.64)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -16837,58 +17081,6 @@
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
 					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 260.35 245.11)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ef3c88a7-c29e-46b1-9846-d274c21c66ab")
-		(property "Sheetname" "Untitled Sheet"
-			(at 260.35 244.3984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 260.35 249.5046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "test" input
-			(at 260.35 247.65 180)
-			(uuid "ecbffaa2-82a5-4346-ae54-7133c017050d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "0511"
-				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(page "69")
 				)
 			)
 		)
