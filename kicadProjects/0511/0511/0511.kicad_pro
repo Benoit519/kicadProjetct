@@ -885,6 +885,10 @@
     [
       "88fc5341-afb8-4308-b309-3807a8feeae9",
       "Buck"
+    ],
+    [
+      "7f025c79-ea20-4013-a71e-871359ae3c80",
+      "Stm32f411retx"
     ]
   ],
   "text_variables": {}
