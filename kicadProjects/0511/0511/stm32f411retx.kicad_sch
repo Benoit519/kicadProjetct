@@ -3256,6 +3256,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 116.84) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f12c98c-64d6-4d1c-8243-c89081014597")
+	)
+	(wire
+		(pts
 			(xy 120.65 127) (xy 116.84 127)
 		)
 		(stroke
@@ -3433,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "8a95a397-67fd-47bf-9f6d-39879d91e3ab")
+	)
+	(wire
+		(pts
+			(xy 68.58 114.3) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909727d5-079f-4354-bcd3-715e18f21009")
 	)
 	(wire
 		(pts
@@ -3985,6 +4005,17 @@
 		)
 		(uuid "1a61c430-3ad2-43b5-ae69-fadcd716de71")
 	)
+	(hierarchical_label "WSEL"
+		(shape bidirectional)
+		(at 73.66 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "243710a3-7cd2-45f0-b689-7808e6fe2013")
+	)
 	(hierarchical_label "INT2"
 		(shape output)
 		(at 72.39 53.34 0)
@@ -4072,6 +4103,17 @@
 			(justify left)
 		)
 		(uuid "9394390c-3988-4013-82fe-61d4c946648a")
+	)
+	(hierarchical_label "BCLCK"
+		(shape bidirectional)
+		(at 68.58 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de89e33c-cb3f-4a5b-b153-9e3030a87d03")
 	)
 	(symbol
 		(lib_id "Device:C")
