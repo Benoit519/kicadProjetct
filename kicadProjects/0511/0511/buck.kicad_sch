@@ -1191,6 +1191,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "J'ai pas mis les valeurs de composants pour le moment \n\nJ'ai des doutes sur les empreintes"
+		(exclude_from_sim no)
+		(at 221.234 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2df8a4e2-e79b-4833-a9b0-2080e2c78085")
+	)
 	(junction
 		(at 36.83 59.69)
 		(diameter 0)

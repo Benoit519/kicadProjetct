@@ -406,541 +406,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:CP2102N-Axx-xQFN24"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CP2102N-Axx-xQFN24"
-				(at 13.97 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
-				(at 31.75 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"
-				(at 1.27 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB to UART master bridge, QFN-24"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB UART bridge"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*4x4mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP2102N-Axx-xQFN24_0_1"
-				(rectangle
-					(start -10.16 25.4)
-					(end 10.16 -25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CP2102N-Axx-xQFN24_1_1"
-				(pin input line
-					(at -12.7 22.86 0)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -22.86 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 27.94 270)
-					(length 2.54)
-					(name "VREGIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 27.94 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 27.94 270)
-					(length 2.54)
-					(name "VIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -22.86 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 22.86 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 20.32 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 17.78 180)
-					(length 2.54)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "~{DSR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "~{DTR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "~{DCD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "~{RI}/CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "SUSPEND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "~{SUSPEND}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "~{TXT}/GPIO.0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "~{RXT}/GPIO.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "RS485/GPIO.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -15.24 180)
-					(length 2.54)
-					(name "~{WAKEUP}/GPIO.3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Stm32F411BlackPill:Adafruit_UDA1334A_Breakout"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1929,6 +1394,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pour le fsr je pense que je vais changer afin d'avoir une connectique\n avec des cables dupont (mettre du coup des connecteurs verticaux)\nJ'aimerais bien faire un montage mécanique dans un second temps \ndu coup il faudrait que je puisse mettre des cables un peu long\n afin de relier le fsr.\n\nJe souhaiterai aussi déporter un boutton poussoir voir plusieurs"
+		(exclude_from_sim no)
+		(at 210.566 207.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af37eea6-b303-4de5-b8b0-9a363d780bdd")
+	)
+	(text "J'ai relié les interruptions au stm32 mais j'ai un peu des doutes, je veux bien qu'on check si c'est ok"
+		(exclude_from_sim no)
+		(at 77.724 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8add698-3558-4866-9d0e-69063322998f")
+	)
 	(text_box "+ Passer tous les boitîer en version CMS :\n=> MCP23017 version SOIC \n=> Resistance, capa en CMS 0603\n+ Côté MCP23017 il faut câbler INTA et INTB et les pullup avec un 10K comme sure RESET (voir schéma adafruit)\n+ Précise les valeurs des composants aussi (comme j'ai fais sur la page bouton)\n+ Pour simplifier la lecture j'ai ajouté des labels je l'ai fais que côté I2C. On peut surement le faire ailleurs.\n+ J'ai du mal à ajouter d'autre pages au schematics. J'aimerai en créer une autre pour ajouter ton convertisseur de tension 5/3,3VDC (si on fais sauter blackpill)\n+ J'ai ajouté le MCU STM32F411RET6 et le convertisseur USB TTL histoire de faire sauter ton blackpill :p"
 		(exclude_from_sim no)
 		(at 267.97 172.72 0)
@@ -2263,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 236.22) (xy 119.38 236.22)
+			(xy 25.4 204.47) (xy 33.02 204.47)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 246.38) (xy 110.49 246.38)
+			(xy 33.02 214.63) (xy 24.13 214.63)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 254) (xy 119.38 254)
+			(xy 24.13 222.25) (xy 33.02 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2643,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 224.79) (xy 133.35 229.87)
+			(xy 46.99 193.04) (xy 46.99 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 232.41) (xy 119.38 232.41)
+			(xy 25.4 200.66) (xy 33.02 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 238.76) (xy 119.38 238.76)
+			(xy 25.4 207.01) (xy 33.02 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3863,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 250.19) (xy 110.49 250.19)
+			(xy 33.02 218.44) (xy 24.13 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 238.76) (xy 142.24 238.76)
+			(xy 50.8 207.01) (xy 55.88 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4363,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 243.84) (xy 142.24 243.84)
+			(xy 50.8 212.09) (xy 55.88 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4413,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 259.08) (xy 119.38 259.08)
+			(xy 24.13 227.33) (xy 33.02 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4862,7 +4347,7 @@
 		(uuid "0921f764-9f37-481c-80b0-ce248a6be86d")
 	)
 	(label "BCLCK"
-		(at 142.24 238.76 0)
+		(at 55.88 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4872,7 +4357,7 @@
 		(uuid "232b2680-3cc3-4a86-80d7-cc5374918e21")
 	)
 	(label "WSEL"
-		(at 133.35 224.79 0)
+		(at 46.99 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4902,7 +4387,7 @@
 		(uuid "3694d31f-9130-4e84-aa6b-fb1e311b7327")
 	)
 	(label "SDA"
-		(at 111.76 236.22 0)
+		(at 25.4 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4912,7 +4397,7 @@
 		(uuid "4c4c09e8-c7d6-4d71-818d-fd3fcf7d23aa")
 	)
 	(label "FSR"
-		(at 142.24 243.84 0)
+		(at 55.88 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4942,7 +4427,7 @@
 		(uuid "74b213ae-6e78-4bfb-9140-4a91324fbcef")
 	)
 	(label "INT4"
-		(at 110.49 259.08 0)
+		(at 24.13 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4982,7 +4467,7 @@
 		(uuid "8361f00e-a663-4341-802d-5aa619dc30fd")
 	)
 	(label "SCL"
-		(at 111.76 232.41 0)
+		(at 25.4 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4992,7 +4477,7 @@
 		(uuid "8671dec9-964c-4794-946e-b040ab857b01")
 	)
 	(label "INT1"
-		(at 110.49 246.38 0)
+		(at 24.13 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5012,7 +4497,7 @@
 		(uuid "99b1e8f0-43e1-4f90-be72-3de31f41e5d1")
 	)
 	(label "INT3"
-		(at 110.49 254 0)
+		(at 24.13 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5042,7 +4527,7 @@
 		(uuid "9e826797-8113-4a8d-b655-df0525052f5d")
 	)
 	(label "INT2"
-		(at 110.49 250.19 0)
+		(at 24.13 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5052,7 +4537,7 @@
 		(uuid "9f467718-8736-4010-9afa-3de0ca919717")
 	)
 	(label "MOSI"
-		(at 111.76 238.76 0)
+		(at 25.4 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7808,145 +7293,6 @@
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_USB:CP2102N-Axx-xQFN24")
-		(at 60.96 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "963b5ae4-c270-4c83-b3f8-29b4959a817c")
-		(property "Reference" "U5"
-			(at 63.1033 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CP2102N-Axx-xQFN24"
-			(at 63.1033 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
-			(at 92.71 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB to UART master bridge, QFN-24"
-			(at 60.96 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "884a3861-0650-4194-910d-ed590c769537")
-		)
-		(pin "8"
-			(uuid "aee7ac7c-b203-4c84-babc-4ce0e5bf3778")
-		)
-		(pin "11"
-			(uuid "4c9e3751-8cc6-4620-a938-843acf97e136")
-		)
-		(pin "10"
-			(uuid "29ad0cb4-b648-4412-a1c1-c16edbca3eae")
-		)
-		(pin "7"
-			(uuid "17deadc4-2742-469d-85a4-37a0405aa16a")
-		)
-		(pin "6"
-			(uuid "158ee771-bf95-43c8-993c-89de76963f18")
-		)
-		(pin "2"
-			(uuid "f5937fce-af42-46df-9543-5cabedf8ddc2")
-		)
-		(pin "16"
-			(uuid "588c99b2-bbab-4cb6-9bc1-e19af38a9af4")
-		)
-		(pin "3"
-			(uuid "0e77790a-c800-444b-90ef-17f869f20ba6")
-		)
-		(pin "5"
-			(uuid "511ccc4f-f35c-472d-a2cc-119043f048cf")
-		)
-		(pin "17"
-			(uuid "3657404c-cc80-47d1-b10a-e0d1f1a8be41")
-		)
-		(pin "1"
-			(uuid "4fa1a090-865e-4df2-9c87-3b2b812efe49")
-		)
-		(pin "24"
-			(uuid "5c1fc15c-c499-4cc3-839b-ee60a7b0145d")
-		)
-		(pin "20"
-			(uuid "949e8a35-a4f7-4afa-aedf-2659633d4d08")
-		)
-		(pin "23"
-			(uuid "63b863fe-e9b9-4dbb-8081-9b93647160b8")
-		)
-		(pin "12"
-			(uuid "7527155a-afa2-49ca-aec7-f64fc11e987a")
-		)
-		(pin "19"
-			(uuid "7ee4d180-2766-488f-9617-d5e5a3df09d4")
-		)
-		(pin "25"
-			(uuid "0066907a-2435-4d9e-a492-f03fc7621e8e")
-		)
-		(pin "4"
-			(uuid "0ef5fc64-5e29-4002-ac64-890ef08e3a48")
-		)
-		(pin "21"
-			(uuid "655642de-9d84-4e24-bc07-e2f4d8bd9860")
-		)
-		(pin "22"
-			(uuid "acd0483d-f0f3-454d-8d0b-21116ebebc27")
-		)
-		(pin "15"
-			(uuid "0d6bcb2e-4cf1-44f2-b164-ca853ed0d075")
-		)
-		(pin "14"
-			(uuid "27d02571-9cae-48ec-a8b1-3848c0fc06fb")
-		)
-		(pin "13"
-			(uuid "37c6dc3e-67e0-456e-85c7-cde40dedd2ae")
-		)
-		(pin "18"
-			(uuid "4cf523a8-0127-4895-9a22-e8d5a13501fb")
-		)
-		(instances
-			(project ""
-				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11498,7 +10844,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 229.87)
+		(at 33.02 198.12)
 		(size 17.78 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11514,7 +10860,7 @@
 		)
 		(uuid "7f025c79-ea20-4013-a71e-871359ae3c80")
 		(property "Sheetname" "Stm32f411retx"
-			(at 119.38 229.1584 0)
+			(at 33.02 197.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,7 +10869,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32f411retx.kicad_sch"
-			(at 119.38 264.7446 0)
+			(at 33.02 232.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11532,7 +10878,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 119.38 238.76 180)
+			(at 33.02 207.01 180)
 			(uuid "79f6ee32-8b5f-49c5-9d97-70ef9e4564e2")
 			(effects
 				(font
@@ -11542,7 +10888,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 119.38 242.57 180)
+			(at 33.02 210.82 180)
 			(uuid "cbfd56af-b51b-42c7-91f5-09c33fe9436c")
 			(effects
 				(font
@@ -11552,7 +10898,7 @@
 			)
 		)
 		(pin "INT1" output
-			(at 119.38 246.38 180)
+			(at 33.02 214.63 180)
 			(uuid "4856cb08-21fa-4464-9f59-d0bc3aa4c852")
 			(effects
 				(font
@@ -11562,7 +10908,7 @@
 			)
 		)
 		(pin "INT2" output
-			(at 119.38 250.19 180)
+			(at 33.02 218.44 180)
 			(uuid "8ab190f1-cc39-44a8-b8a3-7257fa7c079b")
 			(effects
 				(font
@@ -11572,7 +10918,7 @@
 			)
 		)
 		(pin "INT3" output
-			(at 119.38 254 180)
+			(at 33.02 222.25 180)
 			(uuid "4ca99b1f-d6ac-4a49-8e02-86e53c6bdc77")
 			(effects
 				(font
@@ -11582,7 +10928,7 @@
 			)
 		)
 		(pin "INT4" output
-			(at 119.38 259.08 180)
+			(at 33.02 227.33 180)
 			(uuid "d771859c-be98-4f7f-8ff7-eede3439ac74")
 			(effects
 				(font
@@ -11592,7 +10938,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 119.38 232.41 180)
+			(at 33.02 200.66 180)
 			(uuid "2e6dfa5b-f287-4d17-8291-c732f12bc98e")
 			(effects
 				(font
@@ -11602,7 +10948,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 119.38 236.22 180)
+			(at 33.02 204.47 180)
 			(uuid "c7732a4a-e69d-4e2f-b584-f9826ab3f7eb")
 			(effects
 				(font
@@ -11612,7 +10958,7 @@
 			)
 		)
 		(pin "WSEL" bidirectional
-			(at 133.35 229.87 90)
+			(at 46.99 198.12 90)
 			(uuid "4bf4dc91-3526-4436-bd41-a818d9c27250")
 			(effects
 				(font
@@ -11622,7 +10968,7 @@
 			)
 		)
 		(pin "BCLCK" bidirectional
-			(at 137.16 238.76 0)
+			(at 50.8 207.01 0)
 			(uuid "917af046-d305-4782-9c26-eb5b0747eb4f")
 			(effects
 				(font
@@ -11632,7 +10978,7 @@
 			)
 		)
 		(pin "FSR" bidirectional
-			(at 137.16 243.84 0)
+			(at 50.8 212.09 0)
 			(uuid "f2fbadd9-b77a-432a-b6c4-e39cf4ce2770")
 			(effects
 				(font
