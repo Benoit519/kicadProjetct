@@ -1786,7 +1786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "EEEP1V221AP_AJUSTER_EMPREINTE"
 			(at 26.67 42.2909 0)
 			(effects
 				(font

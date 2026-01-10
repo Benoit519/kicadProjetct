@@ -3430,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 80.01) (xy 54.61 86.36)
+			(xy 54.61 80.01) (xy 54.61 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4400,7 +4400,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 93.98) (xy 54.61 96.52)
+			(xy 54.61 90.17) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 161.798 98.044 90)
 			(effects
 				(font
@@ -5563,7 +5563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "8MHz"
 			(at 151.13 111.7599 90)
 			(effects
 				(font
@@ -5684,7 +5684,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 90.17 0)
+		(at 54.61 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5693,7 +5693,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e6784ad-4e43-4758-93f5-fb8fd6e816be")
 		(property "Reference" "R156"
-			(at 57.15 88.8999 0)
+			(at 57.15 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5702,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 57.15 91.4399 0)
+			(at 57.15 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5711,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.832 90.17 90)
+			(at 52.832 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 90.17 0)
+			(at 54.61 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5729,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 90.17 0)
+			(at 54.61 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +6668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55e8409-a346-42de-8576-31db3df99c57")
-		(property "Reference" "C74"
+		(property "Reference" "4.7uF"
 			(at 122.301 49.53 90)
 			(effects
 				(font
@@ -6720,7 +6720,7 @@
 		(instances
 			(project ""
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/7f025c79-ea20-4013-a71e-871359ae3c80"
-					(reference "C74")
+					(reference "4.7uF")
 					(unit 1)
 				)
 			)
@@ -6744,7 +6744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 127.254 135.382 0)
 			(effects
 				(font
@@ -7214,7 +7214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 165.862 124.206 90)
 			(effects
 				(font

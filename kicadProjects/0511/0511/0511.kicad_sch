@@ -1447,7 +1447,7 @@
 		(uuid "14eff02d-8d00-4a56-a242-a4d6cc5bcc90")
 	)
 	(junction
-		(at 153.67 250.19)
+		(at 96.52 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33c36eaa-8606-4cdd-9518-1679dd88105a")
@@ -1459,7 +1459,7 @@
 		(uuid "7240a9db-36a0-4f86-b3c3-9f388dd0ecef")
 	)
 	(junction
-		(at 172.72 250.19)
+		(at 115.57 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd2418e-8a2e-4115-90ed-78910a0f3fc9")
@@ -3538,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 250.19) (xy 170.18 250.19)
+			(xy 115.57 248.92) (xy 113.03 248.92)
 		)
 		(stroke
 			(width 0)
@@ -3758,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 250.19) (xy 153.67 251.46)
+			(xy 96.52 248.92) (xy 96.52 250.19)
 		)
 		(stroke
 			(width 0)
@@ -3938,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 250.19) (xy 172.72 250.19)
+			(xy 118.11 248.92) (xy 115.57 248.92)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 250.19) (xy 153.67 250.19)
+			(xy 100.33 248.92) (xy 96.52 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7365,7 +7365,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 175.26 250.19 0)
+		(at 118.11 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7374,7 +7374,7 @@
 		(fields_autoplaced yes)
 		(uuid "96e598e2-5b23-4972-8a09-e49a83e12131")
 		(property "Reference" "#PWR042"
-			(at 175.26 254 0)
+			(at 118.11 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7383,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 175.26 245.11 0)
+			(at 118.11 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 250.19 0)
+			(at 118.11 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 250.19 0)
+			(at 118.11 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 250.19 0)
+			(at 118.11 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8390,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 250.19 0)
+		(at 96.52 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8399,7 +8399,7 @@
 		(fields_autoplaced yes)
 		(uuid "c230b99d-b68d-40b9-958d-c53b4dcf5ac8")
 		(property "Reference" "#PWR041"
-			(at 153.67 256.54 0)
+			(at 96.52 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,7 +8408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 255.27 0)
+			(at 96.52 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,7 +8416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 250.19 0)
+			(at 96.52 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 250.19 0)
+			(at 96.52 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 250.19 0)
+			(at 96.52 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11376,7 @@
 		)
 	)
 	(sheet
-		(at 157.48 234.95)
+		(at 100.33 233.68)
 		(size 15.24 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11392,7 +11392,7 @@
 		)
 		(uuid "88fc5341-afb8-4308-b309-3807a8feeae9")
 		(property "Sheetname" "Buck"
-			(at 157.48 234.2384 0)
+			(at 100.33 232.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11401,7 +11401,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 157.48 266.0146 0)
+			(at 100.33 264.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +11410,7 @@
 			)
 		)
 		(pin "3.3v" input
-			(at 172.72 250.19 0)
+			(at 115.57 248.92 0)
 			(uuid "79cadd71-da52-46f2-a887-e2a0e617c955")
 			(effects
 				(font
@@ -11420,7 +11420,7 @@
 			)
 		)
 		(pin "gnd" passive
-			(at 157.48 250.19 180)
+			(at 100.33 248.92 180)
 			(uuid "77a98ec7-884a-4636-a7a3-397bd55b752f")
 			(effects
 				(font
