@@ -885,6 +885,10 @@
     [
       "7f025c79-ea20-4013-a71e-871359ae3c80",
       "Stm32f411retx"
+    ],
+    [
+      "be8e2f48-706b-43bd-b6e8-a7bcf8b61384",
+      "usbc"
     ]
   ],
   "text_variables": {}
