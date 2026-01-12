@@ -2015,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 185.42) (xy 119.38 189.23)
+			(xy 109.22 185.42) (xy 109.22 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 170.18) (xy 142.24 170.18)
+			(xy 109.22 170.18) (xy 142.24 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 132.08) (xy 241.3 132.08)
+			(xy 204.47 132.08) (xy 241.3 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3705,7 +3705,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 170.18) (xy 119.38 171.45)
+			(xy 109.22 170.18) (xy 109.22 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3795,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 132.08) (xy 218.44 133.35)
+			(xy 204.47 132.08) (xy 204.47 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 147.32) (xy 233.68 147.32)
+			(xy 205.74 147.32) (xy 233.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 147.32) (xy 218.44 151.13)
+			(xy 205.74 147.32) (xy 205.74 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4645,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 185.42) (xy 134.62 185.42)
+			(xy 109.22 185.42) (xy 134.62 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11742,7 +11742,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 151.13)
+		(at 200.66 151.13)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11758,7 +11758,7 @@
 		)
 		(uuid "80c24696-c010-4926-9fea-6692cec84096")
 		(property "Sheetname" "Button_RCD33"
-			(at 213.36 150.4184 0)
+			(at 200.66 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,7 +11768,7 @@
 			)
 		)
 		(property "Sheetfile" "buttonRcd.kicad_sch"
-			(at 213.36 155.5246 0)
+			(at 200.66 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11778,7 +11778,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 218.44 151.13 90)
+			(at 205.74 151.13 90)
 			(uuid "dc531f54-0bc7-4899-83d1-c9833c623f4c")
 			(effects
 				(font
@@ -11796,7 +11796,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 133.35)
+		(at 199.39 133.35)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11812,7 +11812,7 @@
 		)
 		(uuid "82741eeb-e8f7-4acd-bcdf-52dd9d275877")
 		(property "Sheetname" "Button_RCD35"
-			(at 213.36 132.6384 0)
+			(at 199.39 132.6384 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11823,7 +11823,7 @@
 			)
 		)
 		(property "Sheetfile" "buttonRcd.kicad_sch"
-			(at 213.36 137.7446 0)
+			(at 199.39 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11833,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 218.44 133.35 90)
+			(at 204.47 133.35 90)
 			(uuid "32aa8df0-52eb-4eff-8b11-267eb522fc92")
 			(effects
 				(font
@@ -12177,7 +12177,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 189.23)
+		(at 104.14 189.23)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12193,7 +12193,7 @@
 		)
 		(uuid "99bdf986-2a48-4a3a-91ff-478f42a15df5")
 		(property "Sheetname" "Button_RCD17"
-			(at 114.3 188.5184 0)
+			(at 104.14 188.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12203,7 +12203,7 @@
 			)
 		)
 		(property "Sheetfile" "buttonRcd.kicad_sch"
-			(at 114.3 193.6246 0)
+			(at 104.14 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12213,7 +12213,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 119.38 189.23 90)
+			(at 109.22 189.23 90)
 			(uuid "6bbbe30e-b8fd-4a16-a3c9-0e72a42eb5ae")
 			(effects
 				(font
@@ -13373,7 +13373,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 171.45)
+		(at 104.14 171.45)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13389,7 +13389,7 @@
 		)
 		(uuid "daf8555e-434e-476d-bbd5-4e976190123c")
 		(property "Sheetname" "Button_RCD20"
-			(at 114.3 170.7384 0)
+			(at 104.14 170.7384 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 			)
 		)
 		(property "Sheetfile" "buttonRcd.kicad_sch"
-			(at 114.3 175.8446 0)
+			(at 104.14 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13410,7 +13410,7 @@
 			)
 		)
 		(pin "To_MCP_PIN" input
-			(at 119.38 171.45 90)
+			(at 109.22 171.45 90)
 			(uuid "7c5654d8-0446-4b44-970c-5d492e6a9176")
 			(effects
 				(font
