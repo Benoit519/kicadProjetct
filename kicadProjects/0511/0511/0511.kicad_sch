@@ -5410,7 +5410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e7c7569-f66a-4254-a5b9-d9318e0c3d52")
-		(property "Reference" "MCP23017_ADD1"
+		(property "Reference" "MCP23017_AD23"
 			(at 351.79 61.214 90)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 		(instances
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(reference "MCP23017_ADD1")
+					(reference "MCP23017_AD23")
 					(unit 1)
 				)
 			)
@@ -7103,7 +7103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60888234-c521-41bc-a9f0-caeaecc19224")
-		(property "Reference" "MCP23017_ADD4"
+		(property "Reference" "MCP23017_ADD21"
 			(at 149.86 125.984 90)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 		(instances
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(reference "MCP23017_ADD4")
+					(reference "MCP23017_ADD21")
 					(unit 1)
 				)
 			)
@@ -8386,7 +8386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d12f58e-0ea1-4fa0-bb2a-5a8bc0c88a8e")
-		(property "Reference" "MCP23017_ADD2"
+		(property "Reference" "MCP23017_ADD22"
 			(at 248.92 87.884 90)
 			(effects
 				(font
@@ -8518,7 +8518,7 @@
 		(instances
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(reference "MCP23017_ADD2")
+					(reference "MCP23017_ADD22")
 					(unit 1)
 				)
 			)
@@ -9273,7 +9273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d29499eb-a199-46c1-854a-53ebda5db70f")
-		(property "Reference" "MCP23017_ADD3"
+		(property "Reference" "MCP23017_ADD20"
 			(at 54.356 88.9 90)
 			(effects
 				(font
@@ -9405,7 +9405,7 @@
 		(instances
 			(project ""
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af"
-					(reference "MCP23017_ADD3")
+					(reference "MCP23017_ADD20")
 					(unit 1)
 				)
 			)
