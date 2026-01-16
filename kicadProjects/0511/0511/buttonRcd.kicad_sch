@@ -2646,7 +2646,7 @@
 					(unit 1)
 				)
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/434a685b-84b6-4bfa-b086-84f8f6e29774"
-					(reference "B1_21_C")
+					(reference "B1_21_C1")
 					(unit 1)
 				)
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/4bc294f4-137a-4a49-94ae-54bb94ee5218"
@@ -2734,7 +2734,7 @@
 					(unit 1)
 				)
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/acf37d2c-c747-4424-852d-aab504b457f5"
-					(reference "C7")
+					(reference "A5_20_C1")
 					(unit 1)
 				)
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/b20cfb42-6c08-4266-a68c-8a2a0c480d8b"
