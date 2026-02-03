@@ -4,8 +4,8 @@ import pcbnew
 board = pcbnew.GetBoard()
 
 # Parametres generaux
-start_x_A = 230.0  # Position X de depart pour groupe A
-start_x_B = 210.0  # Position X de depart pour groupe B
+start_x_A = 167.0  # Position X de depart pour groupe A
+start_x_B = 150.0  # Position X de depart pour groupe B
 spacing_y_components = 1.5   # Espacement vertical entre chaque ligne de composants
 
 # Espacements entre les blocs de MCP (changez cette valeur selon votre layout)
@@ -14,10 +14,10 @@ spacing_y_mcp = 25.0  # Espacement vertical entre chaque bloc MCP
 # Positions Y de depart pour chaque MCP
 # Ajustez ces valeurs selon la position de chaque MCP sur votre PCB
 mcp_start_y = [
-    176.0,   # MCP 20 (A0_20-A7_20 et B0_20-B7_20)
-    206.0,   # MCP 21 (A0_21-A7_21 et B0_21-B7_21)
-    233.0,   # MCP 22 (A0_22-A7_22 et B0_22-B7_22)
-    256.0,   # MCP 23 (A0_23-A7_23 et B0_23-B7_23)
+    194.0,   # MCP 20 (A0_20-A7_20 et B0_20-B7_20)
+    223.0,   # MCP 21 (A0_21-A7_21 et B0_21-B7_21)
+    250.0,   # MCP 22 (A0_22-A7_22 et B0_22-B7_22)
+    274.0,   # MCP 23 (A0_23-A7_23 et B0_23-B7_23)
 ]
 
 # Suffixes des MCP a traiter
