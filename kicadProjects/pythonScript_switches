@@ -230,3 +230,63 @@ print("Boutons places: {}".format(total_placed))
 print("Vias places: {}".format(total_vias))
 print("Boutons non trouves: {}".format(total_missing))
 print("=" * 60)
+
+# ETAPE 2: Placer les diodes D1
+print("\n### ETAPE 2: PLACEMENT DES DIODES D1 ###\n")
+
+total_diodes = 0
+diode_missing = 0
+
+for button_name, x_offset, y_offset in BUTTONS:
+    x_pos = START_X + (x_offset * DIAG_STEP_X)
+    y_pos = START_Y + (y_offset * DIAG_STEP_Y)
+    
+    # Position de la diode: 13mm à gauche et 2mm en dessous du centre
+    diode_x = x_pos - 13.0  # 13mm à gauche
+    diode_y = y_pos + 2.0   # 2mm plus bas
+    
+    # Nom de la diode
+    diode_name = "{}_D1".format(button_name)
+    
+    if place_component(diode_name, diode_x, diode_y, DIODE_ROTATION):
+        total_diodes += 1
+    else:
+        diode_missing += 1
+
+pcbnew.Refresh()
+
+print("\n" + "=" * 60)
+print("ETAPE 2 TERMINEE")
+print("Diodes placees: {}".format(total_diodes))
+print("Diodes non trouvees: {}".format(diode_missing))
+print("=" * 60)
+
+# ETAPE 3: Placer les resistances R1
+print("\n### ETAPE 3: PLACEMENT DES RESISTANCES R1 ###\n")
+
+total_resistors = 0
+resistor_missing = 0
+
+for button_name, x_offset, y_offset in BUTTONS:
+    x_pos = START_X + (x_offset * DIAG_STEP_X)
+    y_pos = START_Y + (y_offset * DIAG_STEP_Y)
+    
+    # Position de la resistance: meme X que D1, 4mm au-dessus de D1
+    resistor_x = x_pos - 13.0  # Meme X que D1 (13mm à gauche)
+    resistor_y = y_pos - 2.0   # 4mm au-dessus de D1 (2-4=-2)
+    
+    # Nom de la resistance
+    resistor_name = "{}_R1".format(button_name)
+    
+    if place_component(resistor_name, resistor_x, resistor_y, RESISTOR_ROTATION):
+        total_resistors += 1
+    else:
+        resistor_missing += 1
+
+pcbnew.Refresh()
+
+print("\n" + "=" * 60)
+print("ETAPE 3 TERMINEE")
+print("Resistances placees: {}".format(total_resistors))
+print("Resistances non trouvees: {}".format(resistor_missing))
+print("=" * 60)
