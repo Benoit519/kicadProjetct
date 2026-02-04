@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+import pcbnew
+#exec(open(r"c:\Users\benoi\source\repos\kicadProjetct\kicadProjects\pythonScript_switches").read())
+board = pcbnew.GetBoard()
+
+# ============================================
+# PARAMETRES PLACEMENT BOUTONS CHERRY MX
+# Disposition en DIAGONALE
+# ============================================
+
+# Espacement standard Cherry MX (0.75 inch = 19.05 mm)
+SWITCH_SPACING = 19.05
+
+# Pour la diagonale (lignes decalees):
+# - Deplacement horizontal entre 2 boutons: 19.05 mm
+# - Deplacement vertical entre 2 boutons: 19.05/2 = 9.525 mm
+# Triangle rectangle: base 19.05mm, hauteur 9.525mm
+DIAG_STEP_X = SWITCH_SPACING       # 19.05 mm
+DIAG_STEP_Y = SWITCH_SPACING / 2.0  # 9.525 mm
+
+# Position de depart (A0_20 en haut a gauche)
+START_X = 80.0
+START_Y = 200.0
+
+# Total de 44 boutons selon la disposition en diagonale
+# En comptant depuis le haut: 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3 boutons par diagonale
+# Total = 12 diagonales
+
+# Liste des boutons a placer
+BUTTONS = []
+
+# Position de la premiere diagonale (point de depart)
+current_diag_start_x = 0
+current_diag_start_y = 0
+
+# ==========================================
+# DIAGONALE 0: 2 boutons (A0_20, B0_20)
+# ==========================================
+diag_buttons = ["A0_20", "B0_20"]
+for i, btn in enumerate(diag_buttons):
+    x = current_diag_start_x + i
+    y = current_diag_start_y - i
+    BUTTONS.append((btn, x, y))
+
+# Passer a la diagonale suivante (descendre d'une case)
+current_diag_start_x = 0
+current_diag_start_y = 2  # Increment de 2 pour maintenir 19.05mm vertical
+
+# ==========================================
+# DIAGONALE 1: 3 boutons (A1_20, B1_20, A2_20)
+# ==========================================
+diag_buttons = ["A1_20", "B1_20", "A2_20"]
+for i, btn in enumerate(diag_buttons):
+    x = current_diag_start_x + i
+    y = current_diag_start_y - i
+    BUTTONS.append((btn, x, y))
+
+# Passer a la diagonale suivante (descendre d'une case)
+current_diag_start_x = 0
+current_diag_start_y = 4  # Increment de 2 pour maintenir 19.05mm vertical
+
+# ==========================================
+# DIAGONALES 2 a 10: 9 diagonales de 4 boutons
+# ==========================================
+# Liste des boutons pour ces diagonales
+buttons_4_diag = [
+    ["B2_20", "A3_20", "B3_20", "A4_20"],  # Diag 2
+    ["B4_20", "A5_20", "B5_20", "A6_20"],  # Diag 3
+    ["B6_20", "A7_20", "B7_20", "A0_21"],  # Diag 4
+    ["B0_21", "A1_21", "B1_21", "A2_21"],  # Diag 5
+    ["B2_21", "A3_21", "B3_21", "A4_21"],  # Diag 6
+    ["B4_21", "A5_21", "B5_21", "A6_21"],  # Diag 7
+    ["B6_21", "A7_21", "B7_21", "A0_22"],  # Diag 8
+    ["B0_22", "A1_22", "B1_22", "A2_22"],  # Diag 9
+    ["B2_22", "A3_22", "B3_22", "A4_22"],  # Diag 10
+]
+
+for diag_buttons in buttons_4_diag:
+    # Placer les 4 boutons de cette diagonale
+    for i, btn in enumerate(diag_buttons):
+        x = current_diag_start_x + i
+        y = current_diag_start_y - i
+        BUTTONS.append((btn, x, y))
+    
+    # Passer a la diagonale suivante (increment de 2 pour 19.05mm vertical)
+    current_diag_start_y += 2
+
+# ==========================================
+# DIAGONALE 11 (derniere): 3 boutons (B4_22, A5_22, B5_22)
+# ==========================================
+diag_buttons = ["B4_22", "A5_22", "B5_22"]
+for i, btn in enumerate(diag_buttons):
+    x = 1 + i  # Commence a la seconde colonne (x=1)
+    y = current_diag_start_y - i
+    BUTTONS.append((btn, x, y))
+
+# Rotation des switches (en degres)
+SWITCH_ROTATION = 0
+
+# ============================================
+# FONCTIONS
+# ============================================
+
+def place_component(comp_name, x, y, rotation):
+    """Place un composant aux coordonnees specifiees"""
+    footprint = board.FindFootprintByReference(comp_name)
+    if footprint:
+        footprint.SetPosition(pcbnew.VECTOR2I(
+            int(x * 1e6),  # Conversion mm -> nm
+            int(y * 1e6)
+        ))
+        footprint.SetOrientationDegrees(rotation)
+        print("  [OK] {} -> ({:.2f}, {:.2f})".format(comp_name, x, y))
+        return True
+    else:
+        print("  [WARN] {} non trouve".format(comp_name))
+        return False
+
+# ============================================
+# PLACEMENT PRINCIPAL
+# ============================================
+
+print("=" * 60)
+print("PLACEMENT BOUTONS CHERRY MX EN DIAGONALE")
+print("Espacement: {} mm (0.75 inch)".format(SWITCH_SPACING))
+print("Total de boutons: {}".format(len(BUTTONS)))
+print("=" * 60)
+
+total_placed = 0
+total_missing = 0
+
+# Placer chaque bouton
+for button_name, x_offset, y_offset in BUTTONS:
+    x_pos = START_X + (x_offset * DIAG_STEP_X)
+    y_pos = START_Y + (y_offset * DIAG_STEP_Y)
+    
+    if place_component(button_name, x_pos, y_pos, SWITCH_ROTATION):
+        total_placed += 1
+    else:
+        total_missing += 1
+
+# Rafraichir l'affichage
+pcbnew.Refresh()
+
+print("\n" + "=" * 60)
+print("PLACEMENT TERMINE")
+print("Boutons places: {}".format(total_placed))
+print("Boutons non trouves: {}".format(total_missing))
+print("Total attendu: {}".format(len(BUTTONS)))
+print("=" * 60)
