@@ -37,13 +37,29 @@ BUTTON_NAMES_IN_COLUMNS = [
 # Rotation des switches (en degres)
 SWITCH_ROTATION = 0
 
+# Offsets pour D1 et R1
+# Alignement vertical à droite du bouton
+COMPONENT_OFFSET_X = 8.0   # Distance horizontale à droite du bouton (mm)
+R1_OFFSET_Y = 0.0          # R1 au centre (mm)
+DIODE_OFFSET_Y = 5.0       # D1 en dessous du centre (mm)
+
+# Rotations
+DIODE_ROTATION = 90
+RESISTOR_ROTATION = 90
+
+# Parametres pour les vias
+VIA_OFFSET_X = -10.0  # 10mm a gauche de R1
+VIA_OFFSET_Y = -4.0   # 4mm au-dessus de R1
+VIA_SIZE = 0.8        # Diametre du via en mm
+VIA_DRILL = 0.4       # Diametre du percage en mm
+
 # Liste des boutons a placer
 BUTTONS = []
 
 # Construire la liste des boutons
 for col_index, column_buttons in enumerate(BUTTON_NAMES_IN_COLUMNS):
     for row_index, (port, pin, mcp) in enumerate(column_buttons):
-        button_name = "{}{}_{}".format(port, pin, mcp)
+        button_name = "{}{}_{}" .format(port, pin, mcp)
         
         # Position: colonne de gauche a droite, ligne de bas en haut
         x_offset = col_index  # Colonne
@@ -54,6 +70,25 @@ for col_index, column_buttons in enumerate(BUTTON_NAMES_IN_COLUMNS):
 # ============================================
 # FONCTIONS
 # ============================================
+
+def remove_existing_vias():
+    """Supprime tous les vias existants pour eviter les doublons"""
+    print("\nSuppression des vias existants...")
+    removed_count = 0
+    
+    while True:
+        via_found = False
+        for track in board.GetTracks():
+            if track.GetClass() == 'PCB_VIA':
+                board.RemoveNative(track)
+                removed_count += 1
+                via_found = True
+                break
+        if not via_found:
+            break
+    
+    print("Vias supprimes: {}".format(removed_count))
+    return removed_count
 
 def place_component(comp_name, x, y, rotation):
     """Place un composant aux coordonnees specifiees"""
@@ -80,15 +115,54 @@ print("Espacement: {} mm (0.75 inch)".format(SWITCH_SPACING))
 print("Total de boutons: {}".format(len(BUTTONS)))
 print("=" * 60)
 
+# Supprimer les vias existants
+remove_existing_vias()
+
 total_placed = 0
 total_missing = 0
+total_diodes = 0
+total_resistors = 0
+total_vias = 0
 
 for button_name, x_offset, y_offset in BUTTONS:
     x_pos = START_X + (x_offset * SWITCH_SPACING)
     y_pos = START_Y + (y_offset * SWITCH_SPACING)
     
+    # Placer le bouton
     if place_component(button_name, x_pos, y_pos, SWITCH_ROTATION):
         total_placed += 1
+        
+        # Placer R1 (au-dessus, à droite)
+        r1_name = "{}_R1".format(button_name)
+        r1_x = x_pos + COMPONENT_OFFSET_X
+        r1_y = y_pos + R1_OFFSET_Y
+        if place_component(r1_name, r1_x, r1_y, RESISTOR_ROTATION):
+            total_resistors += 1
+        
+        # Placer D1 (en dessous, à droite, aligné avec R1)
+        diode_name = "{}_D1".format(button_name)
+        d1_x = x_pos + COMPONENT_OFFSET_X
+        d1_y = y_pos + DIODE_OFFSET_Y
+        if place_component(diode_name, d1_x, d1_y, DIODE_ROTATION):
+            total_diodes += 1
+        
+        # Placer le via (relatif a R1)
+        via_x = r1_x + VIA_OFFSET_X
+        via_y = r1_y + VIA_OFFSET_Y
+        
+        via = pcbnew.PCB_VIA(board)
+        via.SetPosition(pcbnew.VECTOR2I(int(via_x * 1e6), int(via_y * 1e6)))
+        via.SetWidth(int(VIA_SIZE * 1e6))
+        via.SetDrill(int(VIA_DRILL * 1e6))
+        
+        # Connecter au net GND
+        gnd_net = board.FindNet("GND")
+        if gnd_net:
+            via.SetNet(gnd_net)
+        
+        board.Add(via)
+        total_vias += 1
+        print("  [OK] Via GND -> ({:.2f}, {:.2f})".format(via_x, via_y))
     else:
         total_missing += 1
 
@@ -98,5 +172,8 @@ pcbnew.Refresh()
 print("\n" + "=" * 60)
 print("PLACEMENT TERMINE")
 print("Boutons places: {}".format(total_placed))
+print("Diodes D1 placees: {}".format(total_diodes))
+print("Resistances R1 placees: {}".format(total_resistors))
+print("Vias GND places: {}".format(total_vias))
 print("Boutons non trouves: {}".format(total_missing))
 print("=" * 60)
