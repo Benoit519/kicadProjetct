@@ -25,15 +25,11 @@ mcp_suffixes = ['20', '21', '22', '23']
 
 # Espacements horizontaux pour groupe A (vers la droite)
 c1_x_A = 0.0
-diode_x_A = 5.0
-r1_x_A = 10.0
-r2_x_A = 15.0
+r2_x_A = 10.0
 
 # Espacements horizontaux pour groupe B (vers la gauche)
 c1_x_B = 0.0
-diode_x_B = -5.0
-r1_x_B = -10.0
-r2_x_B = -15.0
+r2_x_B = -10.0
 
 # Orientation des composants (en degres)
 diode_rotation = 0
@@ -70,10 +66,8 @@ for mcp_index, mcp_suffix in enumerate(mcp_suffixes):
         group_y = start_y + (i * spacing_y_components)
         group_name = "A{}_{}".format(i, mcp_suffix)
         
-        # Ordre: C1 -> D1 -> R1 -> R2
+        # Ordre: C1 -> R2 (D1 et R1 places par les autres scripts)
         place_component("{}_C1".format(group_name), start_x_A + c1_x_A, group_y, capacitor_rotation)
-        place_component("{}_D1".format(group_name), start_x_A + diode_x_A, group_y, diode_rotation)
-        place_component("{}_R1".format(group_name), start_x_A + r1_x_A, group_y, resistor_rotation)
         place_component("{}_R2".format(group_name), start_x_A + r2_x_A, group_y, resistor_rotation)
     
     # Placer les composants B0_XX a B7_XX (cote GAUCHE du MCP23017)
@@ -82,10 +76,8 @@ for mcp_index, mcp_suffix in enumerate(mcp_suffixes):
         group_y = start_y + (i * spacing_y_components)
         group_name = "B{}_{}".format(i, mcp_suffix)
         
-        # Ordre: C1 -> D1 -> R1 -> R2 (symetrie)
+        # Ordre: C1 -> R2 (D1 et R1 places par les autres scripts)
         place_component("{}_C1".format(group_name), start_x_B + c1_x_B, group_y, capacitor_rotation)
-        place_component("{}_D1".format(group_name), start_x_B + diode_x_B, group_y, diode_rotation)
-        place_component("{}_R1".format(group_name), start_x_B + r1_x_B, group_y, resistor_rotation)
         place_component("{}_R2".format(group_name), start_x_B + r2_x_B, group_y, resistor_rotation)
 
 pcbnew.Refresh()
