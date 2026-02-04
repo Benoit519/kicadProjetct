@@ -19,8 +19,25 @@ DIAG_STEP_X = SWITCH_SPACING       # 19.05 mm
 DIAG_STEP_Y = SWITCH_SPACING / 2.0  # 9.525 mm
 
 # Position de depart (A0_20 en haut a gauche)
-START_X = 80.0
-START_Y = 200.0
+START_X = 46.0
+START_Y = 94.0
+
+# Parametres pour les composants additionnels (D1, R1, Via)
+# Position relative au centre du bouton
+COMPONENT_OFFSET_X = -SWITCH_SPACING / 2.0  # A gauche du bouton (entre 2 rangees)
+VIA_OFFSET_X = 3.0                          # 3mm à droite du centre
+VIA_OFFSET_Y = -10.0                        # 10mm au-dessus du centre
+DIODE_OFFSET_Y = 0.0                        # Au milieu du bouton (axe Y)
+RESISTOR_OFFSET_Y = SWITCH_SPACING / 2.0    # En bas du bouton
+
+# Parametres du via
+VIA_SIZE = 0.8        # Diametre du via en mm
+VIA_DRILL = 0.4       # Diametre du percage en mm
+VIA_NET_NAME = "GND"  # Nom du net (plan de masse)
+
+# Rotation des composants
+DIODE_ROTATION = 90   # Diode verticale
+RESISTOR_ROTATION = 90  # Resistance verticale
 
 # Total de 44 boutons selon la disposition en diagonale
 # En comptant depuis le haut: 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3 boutons par diagonale
@@ -87,11 +104,12 @@ for diag_buttons in buttons_4_diag:
 
 # ==========================================
 # DIAGONALE 11 (derniere): 3 boutons (B4_22, A5_22, B5_22)
+# Commence plus haut (ajustement -1)
 # ==========================================
 diag_buttons = ["B4_22", "A5_22", "B5_22"]
 for i, btn in enumerate(diag_buttons):
     x = 1 + i  # Commence a la seconde colonne (x=1)
-    y = current_diag_start_y - i
+    y = (current_diag_start_y - 1) - i  # Remonte d'une unite
     BUTTONS.append((btn, x, y))
 
 # Rotation des switches (en degres)
@@ -116,6 +134,49 @@ def place_component(comp_name, x, y, rotation):
         print("  [WARN] {} non trouve".format(comp_name))
         return False
 
+def place_via(x, y, size, drill, net_name):
+    """Place un via aux coordonnees specifiees"""
+    try:
+        via = pcbnew.PCB_VIA(board)
+        via.SetPosition(pcbnew.VECTOR2I(int(x * 1e6), int(y * 1e6)))
+        via.SetWidth(int(size * 1e6))
+        via.SetDrill(int(drill * 1e6))
+        
+        # Connecter au net GND
+        netinfo = board.FindNet(net_name)
+        if netinfo:
+            via.SetNet(netinfo)
+        
+        board.Add(via)
+        print("  [OK] Via place a ({:.2f}, {:.2f})".format(x, y))
+        return True
+    except Exception as e:
+        print("  [ERREUR] Via: {}".format(str(e)))
+        return False
+
+def remove_existing_vias():
+    """Supprime tous les vias existants du PCB"""
+    vias_removed = 0
+    
+    # Methode plus robuste pour supprimer les vias
+    while True:
+        tracks = list(board.GetTracks())
+        via_found = False
+        
+        for track in tracks:
+            if track.GetClass() == 'PCB_VIA':
+                board.Remove(track)
+                vias_removed += 1
+                via_found = True
+                break  # Recommencer la recherche apres suppression
+        
+        if not via_found:
+            break  # Plus de vias a supprimer
+    
+    print("  [INFO] {} vias supprimes".format(vias_removed))
+    pcbnew.Refresh()
+    return vias_removed
+
 # ============================================
 # PLACEMENT PRINCIPAL
 # ============================================
@@ -126,16 +187,37 @@ print("Espacement: {} mm (0.75 inch)".format(SWITCH_SPACING))
 print("Total de boutons: {}".format(len(BUTTONS)))
 print("=" * 60)
 
+# Supprimer les vias existants
+print("\n### SUPPRESSION DES VIAS EXISTANTS ###\n")
+vias_removed = remove_existing_vias()
+pcbnew.Refresh()
+
 total_placed = 0
 total_missing = 0
+total_vias = 0
 
-# Placer chaque bouton
+# ETAPE 1: Placer les boutons et leurs vias
+print("\n### ETAPE 1: PLACEMENT DES BOUTONS ET VIAS ###\n")
+
+button_counter = 0
 for button_name, x_offset, y_offset in BUTTONS:
+    button_counter += 1
     x_pos = START_X + (x_offset * DIAG_STEP_X)
     y_pos = START_Y + (y_offset * DIAG_STEP_Y)
     
+    print("[{}] Traitement: {}".format(button_counter, button_name))
+    
+    # Placer le bouton
     if place_component(button_name, x_pos, y_pos, SWITCH_ROTATION):
         total_placed += 1
+        
+        # Placer UN SEUL via: 0mm (centre horizontal) et 4mm au-dessus du centre
+        via_x = x_pos + 0.0   # Centre horizontal (1-1)
+        via_y = y_pos - 4.0   # 4mm au-dessus (8-4)
+        print("  => Creation via unique a ({:.2f}, {:.2f})".format(via_x, via_y))
+        if place_via(via_x, via_y, VIA_SIZE, VIA_DRILL, VIA_NET_NAME):
+            total_vias += 1
+        print("  => Total vias crees jusqu'ici: {}".format(total_vias))
     else:
         total_missing += 1
 
@@ -143,8 +225,8 @@ for button_name, x_offset, y_offset in BUTTONS:
 pcbnew.Refresh()
 
 print("\n" + "=" * 60)
-print("PLACEMENT TERMINE")
+print("ETAPE 1 TERMINEE")
 print("Boutons places: {}".format(total_placed))
+print("Vias places: {}".format(total_vias))
 print("Boutons non trouves: {}".format(total_missing))
-print("Total attendu: {}".format(len(BUTTONS)))
 print("=" * 60)
