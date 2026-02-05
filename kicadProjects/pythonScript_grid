@@ -11,7 +11,7 @@ board = pcbnew.GetBoard()
 SWITCH_SPACING = 19.05
 
 # Position de depart (A6_22 en bas a gauche)
-START_X = 210.0  # A ajuster selon votre PCB
+START_X = 260.0  # A ajuster selon votre PCB
 START_Y = 230.0  # A ajuster selon votre PCB
 
 # Configuration: 3 rangees de 6 boutons
@@ -39,7 +39,7 @@ SWITCH_ROTATION = 0
 
 # Offsets pour D1 et R1
 # Alignement vertical à droite du bouton
-COMPONENT_OFFSET_X = 8.0   # Distance horizontale à droite du bouton (mm)
+COMPONENT_OFFSET_X = 7.0   # Distance horizontale à droite du bouton (mm)
 R1_OFFSET_Y = 0.0          # R1 au centre (mm)
 DIODE_OFFSET_Y = 5.0       # D1 en dessous du centre (mm)
 
@@ -48,7 +48,7 @@ DIODE_ROTATION = 90
 RESISTOR_ROTATION = 90
 
 # Parametres pour les vias
-VIA_OFFSET_X = -10.0  # 10mm a gauche de R1
+VIA_OFFSET_X = -7.0  # 7mm a gauche de R1
 VIA_OFFSET_Y = -4.0   # 4mm au-dessus de R1
 VIA_SIZE = 0.8        # Diametre du via en mm
 VIA_DRILL = 0.4       # Diametre du percage en mm
