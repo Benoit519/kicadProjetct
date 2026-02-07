@@ -99,7 +99,8 @@ for mcp_index, mcp_suffix in enumerate(mcp_suffixes):
         # Ordre: C1 -> R2 (D1 et R1 places par les autres scripts)
         # C1 sur la couche bottom
         place_component("{}_C1".format(group_name), start_x_A + c1_x_A, group_y, capacitor_rotation)
-        place_component("{}_R2".format(group_name), start_x_A + r2_x_A, group_y-spacing_y_components_RC, resistor_rotation)
+        # R2 cote A tourne de 180 degres
+        place_component("{}_R2".format(group_name), start_x_A + r2_x_A, group_y-spacing_y_components_RC, 180)
     
     # Placer les composants B0_XX a B7_XX (cote GAUCHE du MCP23017)
     print("\n=== Placement groupe B_{} (gauche - symetrie) ===".format(mcp_suffix))
