@@ -189,7 +189,7 @@ print("=" * 60)
 
 # Supprimer les vias existants
 print("\n### SUPPRESSION DES VIAS EXISTANTS ###\n")
-#vias_removed = remove_existing_vias()
+vias_removed = remove_existing_vias()
 pcbnew.Refresh()
 
 total_placed = 0

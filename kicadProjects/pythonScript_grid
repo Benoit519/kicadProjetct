@@ -45,7 +45,7 @@ DIODE_OFFSET_Y = 5.0       # D1 en dessous du centre (mm)
 
 # Rotations
 DIODE_ROTATION = 90
-RESISTOR_ROTATION = 90
+RESISTOR_ROTATION = -90
 
 # Parametres pour les vias
 VIA_OFFSET_X = -7.0  # 7mm a gauche de R1
