@@ -26,13 +26,16 @@ NUM_ROWS = 6     # 6 boutons par rangee
 
 # Nommage des boutons dans chaque rangee (de bas en haut)
 BUTTON_NAMES_IN_COLUMNS = [
-    # Rangee 1 (gauche)
-    [('A', 6, '22'), ('B', 6, '22'), ('A', 7, '22'), ('B', 7, '22'), ('A', 0, '23'), ('B', 0, '23')],
-    # Rangee 2 (milieu)
-    [('A', 1, '23'), ('B', 1, '23'), ('A', 2, '23'), ('B', 2, '23'), ('A', 3, '23'), ('B', 3, '23')],
-    # Rangee 3 (droite)
-    [('A', 4, '23'), ('B', 4, '23'), ('A', 5, '23'), ('B', 5, '23'), ('A', 6, '23'), ('B', 6, '23')],
+    # Rangée 1 (gauche)
+    [('A', 5, '23'), ('A', 2, '23'), ('B', 7, '23'), ('B', 4, '23'), ('B', 1, '23'), ('B', 6, '22')],
+
+    # Rangée 2 (milieu)
+    [('A', 4, '23'), ('A', 1, '23'), ('B', 6, '23'), ('B', 3, '23'), ('B', 0, '23'), ('B', 5, '22')],
+
+    # Rangée 3 (droite)
+    [('A', 3, '23'), ('A', 0, '23'), ('B', 5, '23'), ('B', 2, '23'), ('B', 7, '22'), ('B', 4, '22')],
 ]
+
 
 # Rotation des switches (en degres)
 SWITCH_ROTATION = 0
@@ -116,7 +119,7 @@ print("Total de boutons: {}".format(len(BUTTONS)))
 print("=" * 60)
 
 # Supprimer les vias existants
-remove_existing_vias()
+#remove_existing_vias()
 
 total_placed = 0
 total_missing = 0
