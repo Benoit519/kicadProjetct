@@ -1847,6 +1847,18 @@
 		(uuid "52f1b4f1-17db-4d74-b687-2d7e89ab40b9")
 	)
 	(junction
+		(at 76.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56050045-1ca0-4899-9e83-fba47e1ca6b1")
+	)
+	(junction
+		(at 83.82 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ed6f32-f5b6-4772-9fde-e30af05b00fb")
+	)
+	(junction
 		(at 73.66 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1948,7 +1960,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 90.17) (xy 46.99 90.17)
+			(xy 46.99 91.44) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2098,6 +2110,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 106.68) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8b0879-46d8-4228-866f-335909c7996d")
+	)
+	(wire
+		(pts
 			(xy 107.95 38.1) (xy 111.76 38.1)
 		)
 		(stroke
@@ -2115,6 +2137,16 @@
 			(type default)
 		)
 		(uuid "4f995b41-ea15-4bc3-97e5-f583e04ddc67")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 81.28 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa49a46-ca21-4af6-904f-0d2b41b62840")
 	)
 	(wire
 		(pts
@@ -2168,23 +2200,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 90.17) (xy 82.55 91.44)
+			(xy 81.28 106.68) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77d964d1-5363-45e7-8d37-62b22571aac2")
+		(uuid "708ae084-174d-4c99-8b8a-088eb85cf442")
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 90.17 106.68)
+			(xy 76.2 91.44) (xy 90.17 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "792923c8-8dd7-4a20-87d8-4b3398d4a7e9")
+		(uuid "7c563ffa-d844-4bc8-aead-dbf76c2f07df")
 	)
 	(wire
 		(pts
@@ -2218,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 107.95) (xy 81.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935943bb-b659-468f-8208-016858c3afad")
+	)
+	(wire
+		(pts
 			(xy 107.95 45.72) (xy 111.76 45.72)
 		)
 		(stroke
@@ -2228,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 46.99 72.39)
+			(xy 46.99 91.44) (xy 46.99 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2328,16 +2370,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 82.55 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd3ea8a-78c0-4b1d-ab4a-2c582ca3251f")
-	)
-	(wire
-		(pts
 			(xy 107.95 35.56) (xy 121.92 35.56)
 		)
 		(stroke
@@ -2345,6 +2377,16 @@
 			(type default)
 		)
 		(uuid "c4ae862f-5ea4-4103-9b51-d46d0777f7cd")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70ca71f-0500-4612-a48a-1e2b8ce5d8c2")
 	)
 	(wire
 		(pts
@@ -2405,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "e1dea6ab-dda5-488d-9ecc-c967a84efc65")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 76.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1ef2b7-a97e-4c66-9a1e-e368b8712390")
 	)
 	(wire
 		(pts
@@ -2497,7 +2549,7 @@
 		(uuid "7e1d9c88-2379-47d4-9e0a-b4d98c5f1426")
 	)
 	(label "D1+"
-		(at 82.55 90.17 0)
+		(at 90.17 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2892,6 +2944,72 @@
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/7f025c79-ea20-4013-a71e-871359ae3c80/be8e2f48-706b-43bd-b6e8-a7bcf8b61384"
 					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e3d9aa-b033-44c4-a954-4beb37f7a36a")
+		(property "Reference" "#PWR0196"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e27cea-2501-489a-9cf3-2a9372a2bc5a")
+		)
+		(instances
+			(project "0511"
+				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/7f025c79-ea20-4013-a71e-871359ae3c80/be8e2f48-706b-43bd-b6e8-a7bcf8b61384"
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
