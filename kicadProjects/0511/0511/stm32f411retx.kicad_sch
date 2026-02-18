@@ -7401,7 +7401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 125.73 142.24 0)
 			(effects
 				(font
