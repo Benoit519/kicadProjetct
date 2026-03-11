@@ -2064,6 +2064,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 90.17) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368b5f6a-85bf-4528-8586-9451e213b434")
+	)
+	(wire
+		(pts
 			(xy 125.73 99.06) (xy 137.16 99.06)
 		)
 		(stroke
@@ -2481,6 +2491,16 @@
 			(type default)
 		)
 		(uuid "ffa193ac-d19b-4283-8a39-41ca6d7871be")
+	)
+	(label "PA11"
+		(at 144.78 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2664f18e-5b51-459c-89c7-fa36b85cb15f")
 	)
 	(label "VBUS_A"
 		(at 90.17 80.01 0)
