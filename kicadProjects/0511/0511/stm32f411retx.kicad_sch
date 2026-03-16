@@ -3517,16 +3517,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 110.49) (xy 71.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1775c12b-3911-4851-a9bd-497d2fe6d8ac")
-	)
-	(wire
-		(pts
 			(xy 116.84 96.52) (xy 121.92 96.52)
 		)
 		(stroke
@@ -3674,16 +3664,6 @@
 			(type default)
 		)
 		(uuid "3985acb4-a636-477d-8a1c-714bbdae6ddf")
-	)
-	(wire
-		(pts
-			(xy 71.12 110.49) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad921c5-37b0-447a-8428-6bdc5adbb49e")
 	)
 	(wire
 		(pts
@@ -4687,16 +4667,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 111.76) (xy 81.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f916769c-9b99-428b-9942-63e126b6647b")
-	)
-	(wire
-		(pts
 			(xy 68.58 121.92) (xy 81.28 121.92)
 		)
 		(stroke
@@ -5024,17 +4994,6 @@
 			(justify left)
 		)
 		(uuid "67cead8c-04d4-4da5-9fad-07be20dc670d")
-	)
-	(hierarchical_label "MISO"
-		(shape input)
-		(at 60.96 110.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6fb880d3-1bb2-46b9-8f29-e31d216ef0ff")
 	)
 	(hierarchical_label "INT3"
 		(shape output)
