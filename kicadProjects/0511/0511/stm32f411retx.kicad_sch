@@ -5704,7 +5704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Project:XTAL_ABLS2-8.000MHZ-D4Y-T"
 			(at 147.32 110.49 0)
 			(effects
 				(font
