@@ -2533,7 +2533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 180.34 110.4899 0)
 			(effects
 				(font
