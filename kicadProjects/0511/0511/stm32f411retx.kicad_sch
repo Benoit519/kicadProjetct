@@ -7620,7 +7620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55e8409-a346-42de-8576-31db3df99c57")
-		(property "Reference" "4.7uF1"
+		(property "Reference" "C_Polarized1"
 			(at 122.301 49.53 90)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "4.7uF"
 			(at 122.301 52.07 90)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 		(instances
 			(project ""
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/7f025c79-ea20-4013-a71e-871359ae3c80"
-					(reference "4.7uF1")
+					(reference "C_Polarized1")
 					(unit 1)
 				)
 			)
