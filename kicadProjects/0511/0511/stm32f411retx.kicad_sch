@@ -3459,6 +3459,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 127) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b251d0-4647-4961-941c-530b3f7a807c")
+	)
+	(wire
+		(pts
 			(xy 68.58 119.38) (xy 81.28 119.38)
 		)
 		(stroke
@@ -4229,6 +4239,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 127) (xy 53.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc7771c-d29b-482f-97b8-79a120905ba3")
+	)
+	(wire
+		(pts
 			(xy 160.02 104.14) (xy 147.32 104.14)
 		)
 		(stroke
@@ -4419,16 +4439,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 54.61 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ff9033-4d68-4b71-9e7d-69501cf2061d")
-	)
-	(wire
-		(pts
 			(xy 27.94 135.89) (xy 34.29 135.89)
 		)
 		(stroke
@@ -4509,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 135.89) (xy 53.34 135.89)
+			(xy 50.8 133.35) (xy 48.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4566,6 +4576,16 @@
 			(type default)
 		)
 		(uuid "b55e18d4-0e06-4ab3-a0fc-6410ec514740")
+	)
+	(wire
+		(pts
+			(xy 50.8 133.35) (xy 50.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c4f8cb-2cdc-476c-a875-f0a8670923a2")
 	)
 	(wire
 		(pts
@@ -4749,7 +4769,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 119.38) (xy 53.34 128.27)
+			(xy 50.8 135.89) (xy 40.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5aa4e22-193c-49b5-b7db-514f574318be")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 48.26 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4916,16 +4946,6 @@
 			(type default)
 		)
 		(uuid "f4615d9e-ba3d-4c0e-8952-5d4accedd04c")
-	)
-	(wire
-		(pts
-			(xy 50.8 129.54) (xy 50.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c0c0d5-9c1d-472e-9c67-d8ba79e63ec2")
 	)
 	(wire
 		(pts
@@ -5451,7 +5471,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 132.08 0)
+		(at 48.26 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5459,7 +5479,7 @@
 		(dnp no)
 		(uuid "087ae4fe-4bfe-4f27-833d-83ef9e6f56f5")
 		(property "Reference" "C70"
-			(at 49.022 129.286 0)
+			(at 49.784 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5488,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 47.244 134.112 0)
+			(at 42.164 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5497,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 135.89 0)
+			(at 49.2252 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 132.08 0)
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 132.08 0)
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 141.478 81.026 90)
 			(effects
 				(font
@@ -6317,7 +6337,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b75beaa-b15d-4b7b-b29b-85cb70fee182")
 		(property "Reference" "R130"
 			(at 132.08 114.3 90)
@@ -6327,7 +6346,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 132.08 116.84 90)
 			(effects
 				(font
@@ -6940,8 +6959,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aa377f9-4d94-4a35-99ea-9b370e0c8808")
-		(property "Reference" "C68"
-			(at 29.972 129.286 0)
+		(property "Reference" "LDOCout1"
+			(at 30.226 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 28.194 134.112 0)
 			(effects
 				(font
@@ -6994,7 +7013,7 @@
 		(instances
 			(project "0511"
 				(path "/2c0b0e0d-c5e7-48b7-93bb-9be1941509af/7f025c79-ea20-4013-a71e-871359ae3c80"
-					(reference "C68")
+					(reference "LDOCout1")
 					(unit 1)
 				)
 			)
@@ -8594,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 101.6 150.876 0)
 			(effects
 				(font
