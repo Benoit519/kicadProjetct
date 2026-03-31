@@ -32,7 +32,7 @@ JP2,1,Conn_01x03,,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,"Ge
 "R6,R7",2,"4,7K",,Resistor_SMD:R_0603_1608Metric,Resistor
 "R131,R133",2,5.1K,,Resistor_SMD:R_0603_1608Metric,Resistor
 R132,1,1M,,Resistor_SMD:R_0603_1608Metric,Resistor
-U1,1,Adafruit_UDA1334A_Breakout,Adafruit I2S Stereo Decoder - UDA1334A Breakout,Adafruit_UDA1334A_Breakout,
+U1,0 (NM),NM Adafruit_UDA1334A_Breakout,Adafruit I2S Stereo Decoder - UDA1334A Breakout,Adafruit_UDA1334A_Breakout,
 U2,1,STM32F411RET6,STM32F411RET6,Package_QFP:LQFP-64_10x10mm_P0.5mm,"STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 100 MHz, 1.7-3.6V, 50 GPIO, LQFP64"
 U3,1,BD33HC5WEFJ-E2,BD33HC5WEFJ-E2,Project:HTSOP-J8_ROM,
 Y1,1,32.768KHz,ABS25-32.768KHZ-6-T,Project:XTAL_ABS25-32.768KHZ-6-T,
